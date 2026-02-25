@@ -1,0 +1,182 @@
+[
+    {
+        "id": "basmati-rice",
+        "name": "Basmati Rice",
+        "category": "Food Grains",
+        "origin": "Punjab, Haryana, Madhya Pradesh",
+        "qualityStandards": "FSSAI Certified, ISO 22000, Non-GMO",
+        "packaging": "25 kg / 50 kg PP bags, Jute bags, Custom packaging available",
+        "exportCapacity": "500+ MT per month",
+        "description": "Premium long-grain Basmati rice sourced directly from farmer clusters, known for its aromatic fragrance and elongation."
+    },
+    {
+        "id": "non-basmati-rice",
+        "name": "Non-Basmati Rice",
+        "category": "Food Grains",
+        "origin": "Chhattisgarh, West Bengal, Andhra Pradesh",
+        "qualityStandards": "FSSAI Certified, Sortex Clean",
+        "packaging": "25 kg / 50 kg PP bags, Bulk shipment available",
+        "exportCapacity": "1000+ MT per month",
+        "description": "Sona Masoori, IR-64, Parboiled and Raw rice varieties for wholesale and bulk buyers."
+    },
+    {
+        "id": "wheat",
+        "name": "Wheat",
+        "category": "Food Grains",
+        "origin": "Madhya Pradesh, Uttar Pradesh, Rajasthan",
+        "qualityStandards": "FAQ Grade, FSSAI Certified",
+        "packaging": "50 kg PP bags, Bulk containers",
+        "exportCapacity": "800+ MT per month",
+        "description": "High-protein milling wheat and durum wheat varieties, ideal for flour mills and food processors."
+    },
+    {
+        "id": "maize",
+        "name": "Maize (Corn)",
+        "category": "Food Grains",
+        "origin": "Karnataka, Bihar, Madhya Pradesh",
+        "qualityStandards": "Moisture < 14%, Aflatoxin compliant",
+        "packaging": "50 kg bags, Bulk shipment",
+        "exportCapacity": "600+ MT per month",
+        "description": "Yellow maize suitable for animal feed, starch production, and food-grade applications."
+    },
+    {
+        "id": "millets",
+        "name": "Millets (Bajra, Jowar, Ragi)",
+        "category": "Food Grains",
+        "origin": "Rajasthan, Maharashtra, Karnataka",
+        "qualityStandards": "Organic certified options available, FSSAI",
+        "packaging": "25 kg / 50 kg bags, Retail packing available",
+        "exportCapacity": "200+ MT per month",
+        "description": "Nutrient-rich millets including pearl millet, sorghum, and finger millet — the superfood of sustainable agriculture."
+    },
+    {
+        "id": "tur-dal",
+        "name": "Tur Dal (Pigeon Pea)",
+        "category": "Pulses",
+        "origin": "Maharashtra, Karnataka, Madhya Pradesh",
+        "qualityStandards": "Sortex clean, FSSAI certified",
+        "packaging": "25 kg / 50 kg PP bags",
+        "exportCapacity": "400+ MT per month",
+        "description": "Split and whole Tur dal, machine-cleaned and polished, sourced from rain-fed farming clusters."
+    },
+    {
+        "id": "chana-dal",
+        "name": "Chana Dal (Chickpea)",
+        "category": "Pulses",
+        "origin": "Madhya Pradesh, Rajasthan, Maharashtra",
+        "qualityStandards": "FSSAI, Desi & Kabuli varieties",
+        "packaging": "25 kg / 50 kg bags, Custom packaging",
+        "exportCapacity": "500+ MT per month",
+        "description": "Premium quality Bengal gram — whole chana, split dal, and roasted variants available for trade."
+    },
+    {
+        "id": "moong-dal",
+        "name": "Moong Dal (Green Gram)",
+        "category": "Pulses",
+        "origin": "Rajasthan, Maharashtra, Andhra Pradesh",
+        "qualityStandards": "Sortex clean, Low moisture",
+        "packaging": "25 kg / 50 kg bags",
+        "exportCapacity": "300+ MT per month",
+        "description": "Whole green moong and split moong dal, ideal for sprouts, dal, and snack manufacturing."
+    },
+    {
+        "id": "urad-dal",
+        "name": "Urad Dal (Black Gram)",
+        "category": "Pulses",
+        "origin": "Madhya Pradesh, Maharashtra, Andhra Pradesh",
+        "qualityStandards": "Machine cleaned, FSSAI certified",
+        "packaging": "25 kg / 50 kg bags",
+        "exportCapacity": "250+ MT per month",
+        "description": "Split and whole urad dal, essential for papad manufacturing, dal makhani, and idli-dosa batter."
+    },
+    {
+        "id": "turmeric",
+        "name": "Turmeric",
+        "category": "Spices",
+        "origin": "Maharashtra, Telangana, Tamil Nadu",
+        "qualityStandards": "Curcumin 3-5%, FSSAI, Export quality",
+        "packaging": "25 kg / 50 kg bags, Powder or Finger form",
+        "exportCapacity": "200+ MT per month",
+        "description": "High-curcumin turmeric fingers and powder — Sangli and Erode varieties for food & pharma applications."
+    },
+    {
+        "id": "red-chilli",
+        "name": "Red Chilli",
+        "category": "Spices",
+        "origin": "Andhra Pradesh, Karnataka, Madhya Pradesh",
+        "qualityStandards": "ASTA Color value compliant, Low aflatoxin",
+        "packaging": "25 kg / 50 kg bags, Whole or Powder",
+        "exportCapacity": "300+ MT per month",
+        "description": "Teja, Byadgi, and S17 chilli varieties — whole dried, stemless, or powder form for spice blenders."
+    },
+    {
+        "id": "coriander",
+        "name": "Coriander Seeds",
+        "category": "Spices",
+        "origin": "Rajasthan, Gujarat, Madhya Pradesh",
+        "qualityStandards": "Volatile oil content tested, FSSAI",
+        "packaging": "25 kg bags, Whole or Powder",
+        "exportCapacity": "150+ MT per month",
+        "description": "Eagle and Scooter variety coriander seeds, machine-cleaned and sun-dried for optimal aroma retention."
+    },
+    {
+        "id": "cumin",
+        "name": "Cumin Seeds",
+        "category": "Spices",
+        "origin": "Gujarat, Rajasthan",
+        "qualityStandards": "Singapore/Europe quality, Low moisture",
+        "packaging": "25 kg bags, Vacuum packed options",
+        "exportCapacity": "100+ MT per month",
+        "description": "Premium quality cumin seeds (Jeera) with high volatile oil content — Singapore and Europe quality grades."
+    },
+    {
+        "id": "soybean",
+        "name": "Soybean",
+        "category": "Oilseeds & Agro Commodities",
+        "origin": "Madhya Pradesh, Maharashtra, Rajasthan",
+        "qualityStandards": "Non-GMO, Protein > 38%, FSSAI",
+        "packaging": "50 kg bags, Bulk containers",
+        "exportCapacity": "800+ MT per month",
+        "description": "Non-GMO soybean for oil extraction, animal feed, and food-grade soya products manufacturing."
+    },
+    {
+        "id": "groundnut",
+        "name": "Groundnut (Peanut)",
+        "category": "Oilseeds & Agro Commodities",
+        "origin": "Gujarat, Rajasthan, Andhra Pradesh",
+        "qualityStandards": "Bold 40/50, 60/70 count, Aflatoxin free",
+        "packaging": "25 kg / 50 kg bags, Vacuum packed",
+        "exportCapacity": "500+ MT per month",
+        "description": "Java, Bold, and TJ variety groundnuts — in-shell, blanched, or split for confectionery and oil mills."
+    },
+    {
+        "id": "mustard",
+        "name": "Mustard Seeds",
+        "category": "Oilseeds & Agro Commodities",
+        "origin": "Rajasthan, Madhya Pradesh, Gujarat",
+        "qualityStandards": "Oil content > 38%, FSSAI",
+        "packaging": "50 kg bags",
+        "exportCapacity": "300+ MT per month",
+        "description": "Yellow and brown mustard seeds for oil extraction, condiment manufacturing, and food-grade applications."
+    },
+    {
+        "id": "onion",
+        "name": "Onion",
+        "category": "Fresh Produce",
+        "origin": "Maharashtra, Karnataka, Madhya Pradesh",
+        "qualityStandards": "Export quality grading, Phytosanitary certified",
+        "packaging": "25 kg / 50 kg mesh bags, Refrigerated containers",
+        "exportCapacity": "1000+ MT per month (seasonal)",
+        "description": "Red and white onion varieties — Nashik, Bangalore Rose — graded for size and quality for international markets."
+    },
+    {
+        "id": "seasonal-fruits",
+        "name": "Seasonal Fruits",
+        "category": "Fresh Produce",
+        "origin": "Maharashtra, Gujarat, Andhra Pradesh",
+        "qualityStandards": "GLOBALGAP, Phytosanitary certified",
+        "packaging": "Corrugated boxes, Cold chain logistics",
+        "exportCapacity": "200+ MT per season",
+        "description": "Alphonso mangoes, pomegranates, bananas, and grapes — sourced from certified orchards with cold chain support."
+    }
+]
