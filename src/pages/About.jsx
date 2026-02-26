@@ -1,7 +1,9 @@
 import Hero from '../components/Hero';
 import useScrollAnimation from '../hooks/useScrollAnimation';
+import { leadership, operationsTeam, infrastructure, logisticsPartners } from '../data/companyData';
 import heroBg from '../assets/hero-banner.png';
 import './About.css';
+import './Leadership.css';
 
 export default function About() {
     useScrollAnimation();
@@ -78,18 +80,71 @@ export default function About() {
                 </div>
             </section>
 
-            {/* Middlemen Elimination */}
+            {/* Board of Directors */}
+            <section className="section section--alt">
+                <div className="container">
+                    <div className="section-heading fade-in">
+                        <span className="section-heading__label">Governance</span>
+                        <h2 className="section-heading__title">Board of Directors</h2>
+                        <div className="section-heading__bar" />
+                        <p className="section-heading__subtitle">
+                            Experienced leaders from agriculture, trade, and finance guiding the strategic direction
+                            of our farmer-owned enterprise.
+                        </p>
+                    </div>
+
+                    <div className="leader-grid fade-in">
+                        {leadership.map((person, i) => (
+                            <div className="leader-card" key={i}>
+                                <div className="leader-card__avatar">
+                                    <span className="leader-card__initials">{person.initials}</span>
+                                </div>
+                                <h3 className="leader-card__name">{person.name}</h3>
+                                <div className="leader-card__role">{person.role}</div>
+                                <p className="leader-card__bio">{person.bio}</p>
+                                <div className="leader-card__dept">{person.department}</div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Operations Team */}
+            <section className="section">
+                <div className="container">
+                    <div className="section-heading fade-in">
+                        <span className="section-heading__label">Team</span>
+                        <h2 className="section-heading__title">Operations Team</h2>
+                        <div className="section-heading__bar" />
+                    </div>
+
+                    <div className="ops-grid fade-in">
+                        {operationsTeam.map((member, i) => (
+                            <div className="ops-card" key={i}>
+                                <div className="ops-card__header">
+                                    <div className="ops-card__avatar-sm">
+                                        {member.name.charAt(0)}
+                                    </div>
+                                    <div>
+                                        <h4 className="ops-card__name">{member.name}</h4>
+                                        <div className="ops-card__role">{member.role}</div>
+                                    </div>
+                                </div>
+                                <div className="ops-card__dept-badge">{member.department}</div>
+                                <p className="ops-card__responsibilities">{member.responsibilities}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Our Approach */}
             <section className="section section--alt">
                 <div className="container">
                     <div className="section-heading fade-in">
                         <span className="section-heading__label">Our Approach</span>
                         <h2 className="section-heading__title">Eliminating Middlemen, Empowering Farmers</h2>
                         <div className="section-heading__bar" />
-                        <p className="section-heading__subtitle">
-                            The traditional agricultural supply chain involves 4–6 intermediaries between the farmer
-                            and the end buyer. Each layer adds cost and reduces the farmer's share. Panjara Agro
-                            eliminates this inefficiency.
-                        </p>
                     </div>
                     <div className="about-compare grid-2 fade-in">
                         <div className="about-compare__card about-compare__card--old">

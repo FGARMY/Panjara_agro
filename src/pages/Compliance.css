@@ -1,0 +1,223 @@
+/* ===== COMPLIANCE PAGE ===== */
+.compliance-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.compliance-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 32px 28px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--gray-200);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.compliance-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--green-600), var(--gold));
+}
+
+.compliance-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--green-100);
+}
+
+.compliance-card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.compliance-card__icon {
+    font-size: 2rem;
+}
+
+.compliance-card__status {
+    padding: 4px 14px;
+    border-radius: 20px;
+    color: var(--white);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.compliance-card__label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 8px;
+}
+
+.compliance-card__value {
+    font-family: 'Inter', monospace;
+    font-size: 0.9rem;
+    color: var(--green-700);
+    font-weight: 600;
+    background: var(--green-50);
+    padding: 6px 12px;
+    border-radius: var(--radius-sm);
+    display: inline-block;
+    margin-bottom: 12px;
+    word-break: break-all;
+}
+
+.compliance-card__desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.compliance-card__issuer {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    border-top: 1px solid var(--gray-200);
+    padding-top: 12px;
+}
+
+.compliance-card__issuer-label {
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+/* Certificates */
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cert-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 20px 24px;
+    border: 1px solid var(--gray-200);
+    transition: var(--transition);
+}
+
+.cert-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--green-100);
+}
+
+.cert-card__icon {
+    font-size: 1.6rem;
+    flex-shrink: 0;
+}
+
+.cert-card__info {
+    flex: 1;
+}
+
+.cert-card__name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.cert-card__format {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cert-card__btn {
+    padding: 8px 16px !important;
+    font-size: 0.8rem !important;
+    flex-shrink: 0;
+}
+
+/* Trust Banner */
+.compliance-trust {
+    text-align: center;
+}
+
+.compliance-trust__title {
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    margin-bottom: 16px;
+}
+
+.compliance-trust__text {
+    font-size: 1.05rem;
+    opacity: 0.85;
+    max-width: 600px;
+    margin: 0 auto 36px;
+    line-height: 1.7;
+}
+
+.compliance-trust__badges {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.trust-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 24px;
+    border-radius: var(--radius-xl);
+    transition: var(--transition);
+}
+
+.trust-badge:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.trust-badge__icon {
+    font-size: 1.3rem;
+}
+
+.trust-badge__label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 1024px) {
+    .compliance-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cert-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .compliance-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cert-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .compliance-trust__badges {
+        gap: 12px;
+    }
+
+    .trust-badge {
+        padding: 10px 16px;
+        font-size: 0.85rem;
+    }
+}

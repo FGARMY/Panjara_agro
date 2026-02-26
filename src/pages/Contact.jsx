@@ -1,10 +1,13 @@
+import { useState } from 'react';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import InquiryForm from '../components/InquiryForm';
+import RFQForm from '../components/RFQForm';
 import heroBg from '../assets/hero-banner.png';
 import './Contact.css';
 
 export default function Contact() {
     useScrollAnimation();
+    const [activeTab, setActiveTab] = useState('inquiry');
 
     return (
         <>
@@ -25,37 +28,66 @@ export default function Contact() {
                         <div className="section-heading__bar" />
                     </div>
                     <div className="contact-actions fade-in">
-                        <a href="#inquiry-form" className="contact-action">
+                        <a href="#form-section" className="contact-action" onClick={() => setActiveTab('inquiry')}>
                             <div className="contact-action__icon">📦</div>
                             <div className="contact-action__title">Request Bulk Quote</div>
                             <div className="contact-action__desc">Get pricing for specific commodities and volumes</div>
                         </a>
-                        <a href="#inquiry-form" className="contact-action">
+                        <a href="#form-section" className="contact-action" onClick={() => setActiveTab('rfq')}>
+                            <div className="contact-action__icon">📋</div>
+                            <div className="contact-action__title">Request for Quotation</div>
+                            <div className="contact-action__desc">Submit a detailed RFQ with product specs and delivery requirements</div>
+                        </a>
+                        <a href="#form-section" className="contact-action" onClick={() => setActiveTab('inquiry')}>
                             <div className="contact-action__icon">🤝</div>
                             <div className="contact-action__title">Become a Trade Partner</div>
                             <div className="contact-action__desc">Start a long-term sourcing relationship</div>
-                        </a>
-                        <a href="#inquiry-form" className="contact-action">
-                            <div className="contact-action__icon">📋</div>
-                            <div className="contact-action__title">Custom Sourcing</div>
-                            <div className="contact-action__desc">Need something specific? Tell us about it</div>
                         </a>
                     </div>
                 </div>
             </section>
 
             {/* Form + Contact Info */}
-            <section className="section section--alt">
+            <section className="section section--alt" id="form-section">
                 <div className="container">
                     <div className="contact-layout fade-in">
-                        {/* Form */}
+                        {/* Form Area */}
                         <div>
-                            <h2 className="contact-form-title">Trade Inquiry Form</h2>
-                            <p className="contact-form-subtitle">
-                                Fill in your requirements below and our trade team will get back to you within 24 business hours
-                                with a customized proposal.
-                            </p>
-                            <InquiryForm />
+                            {/* Tab Switcher */}
+                            <div className="contact-form-tabs">
+                                <button
+                                    className={`contact-form-tab ${activeTab === 'inquiry' ? 'contact-form-tab--active' : ''}`}
+                                    onClick={() => setActiveTab('inquiry')}
+                                >
+                                    Trade Inquiry
+                                </button>
+                                <button
+                                    className={`contact-form-tab ${activeTab === 'rfq' ? 'contact-form-tab--active' : ''}`}
+                                    onClick={() => setActiveTab('rfq')}
+                                >
+                                    Request for Quotation
+                                </button>
+                            </div>
+
+                            {activeTab === 'inquiry' ? (
+                                <>
+                                    <h2 className="contact-form-title">Trade Inquiry Form</h2>
+                                    <p className="contact-form-subtitle">
+                                        Fill in your requirements below and our trade team will get back to you within 24 business hours
+                                        with a customized proposal.
+                                    </p>
+                                    <InquiryForm />
+                                </>
+                            ) : (
+                                <>
+                                    <h2 className="contact-form-title">Request for Quotation (RFQ)</h2>
+                                    <p className="contact-form-subtitle">
+                                        Submit detailed product specifications, packaging preferences, delivery timeline,
+                                        and upload requirement sheets for a comprehensive quote.
+                                    </p>
+                                    <RFQForm />
+                                </>
+                            )}
                         </div>
 
                         {/* Sidebar */}

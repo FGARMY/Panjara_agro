@@ -1,0 +1,187 @@
+/* ===== PACKAGING & LOGISTICS PAGE ===== */
+
+/* Packaging Grid */
+.pkg-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.pkg-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 32px 24px;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    text-align: center;
+}
+
+.pkg-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--green-100);
+}
+
+.pkg-card__icon {
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+}
+
+.pkg-card__title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.pkg-card__desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.pkg-card__specs {
+    font-size: 0.78rem;
+    color: var(--text-light);
+    background: var(--gray-50);
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    line-height: 1.5;
+}
+
+/* Container Grid */
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.container-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 28px;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.container-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-3px);
+}
+
+.container-card__icon {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.container-card__type {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 8px;
+}
+
+.container-card__capacity {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--green-700);
+    margin-bottom: 10px;
+}
+
+.container-card__suitable {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Shipping Capabilities */
+.ship-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.ship-card {
+    display: flex;
+    gap: 20px;
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 28px;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.ship-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+    border-color: var(--green-100);
+}
+
+.ship-card__icon {
+    width: 52px;
+    height: 52px;
+    border-radius: var(--radius-md);
+    background: var(--green-50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.ship-card__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+
+.ship-card__desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.ship-card__detail {
+    font-size: 0.78rem;
+    color: var(--green-700);
+    font-weight: 600;
+    background: var(--green-50);
+    padding: 6px 12px;
+    border-radius: var(--radius-sm);
+    display: inline-block;
+}
+
+@media (max-width: 1024px) {
+    .pkg-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .pkg-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ship-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ship-card {
+        flex-direction: column;
+    }
+}

@@ -207,6 +207,113 @@ export default function GlobalTrade() {
                 </div>
             </section>
 
+            {/* Partnership Models */}
+            <section className="section section--alt">
+                <div className="container">
+                    <div className="section-heading fade-in">
+                        <span className="section-heading__label">Engagement Models</span>
+                        <h2 className="section-heading__title">Partnership & Supply Models</h2>
+                        <div className="section-heading__bar" />
+                        <p className="section-heading__subtitle">
+                            We offer flexible engagement models tailored to your sourcing requirements —
+                            from spot purchases to long-term contracts.
+                        </p>
+                    </div>
+
+                    <div className="partnership-grid fade-in">
+                        <div className="partnership-card">
+                            <div className="partnership-card__icon">📦</div>
+                            <h3 className="partnership-card__title">Bulk Supply</h3>
+                            <p className="partnership-card__desc">
+                                Spot and recurring bulk orders for grains, pulses, spices, and oilseeds.
+                                Competitive FOB/CIF pricing with flexible payment terms.
+                            </p>
+                            <ul className="partnership-card__features">
+                                <li>Minimum 25 MT per shipment</li>
+                                <li>Multi-port loading options</li>
+                                <li>Full documentation support</li>
+                            </ul>
+                        </div>
+                        <div className="partnership-card partnership-card--featured">
+                            <div className="partnership-card__badge">Most Popular</div>
+                            <div className="partnership-card__icon">📝</div>
+                            <h3 className="partnership-card__title">Contract Farming</h3>
+                            <p className="partnership-card__desc">
+                                Pre-agreed supply contracts with guaranteed quality, quantity, and delivery schedules.
+                                Crops grown to your specifications with full traceability.
+                            </p>
+                            <ul className="partnership-card__features">
+                                <li>Custom variety & grade selection</li>
+                                <li>Guaranteed monthly supply</li>
+                                <li>Dedicated farmer clusters</li>
+                                <li>Price-lock options available</li>
+                            </ul>
+                        </div>
+                        <div className="partnership-card">
+                            <div className="partnership-card__icon">🏷️</div>
+                            <h3 className="partnership-card__title">Private Label</h3>
+                            <p className="partnership-card__desc">
+                                White-label and private-label packaging with your branding, artwork, and
+                                market-specific labeling requirements.
+                            </p>
+                            <ul className="partnership-card__features">
+                                <li>Custom packaging & branding</li>
+                                <li>Multi-language labels</li>
+                                <li>Retail-ready packing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Trade Approach */}
+            <section className="section section--brown">
+                <div className="container">
+                    <div className="section-heading fade-in">
+                        <span className="section-heading__label">Our Vision</span>
+                        <h2 className="section-heading__title">Long-Term Supply Partnership</h2>
+                        <div className="section-heading__bar" />
+                    </div>
+
+                    <div className="trade-vision fade-in">
+                        <div className="trade-vision__grid">
+                            <div className="trade-vision__item">
+                                <div className="trade-vision__number">01</div>
+                                <h4 className="trade-vision__title">Reliable Supply Chain</h4>
+                                <p className="trade-vision__text">
+                                    We invest in farmer relationships, not just transactions. Our aggregation model
+                                    ensures year-round supply consistency, even across seasonal fluctuations.
+                                </p>
+                            </div>
+                            <div className="trade-vision__item">
+                                <div className="trade-vision__number">02</div>
+                                <h4 className="trade-vision__title">Scalable Capacity</h4>
+                                <p className="trade-vision__text">
+                                    With 2,500+ farmers and 15,000+ acres, we can scale supply to match growing
+                                    demand — from trial orders to full-container monthly contracts.
+                                </p>
+                            </div>
+                            <div className="trade-vision__item">
+                                <div className="trade-vision__number">03</div>
+                                <h4 className="trade-vision__title">Quality-First Approach</h4>
+                                <p className="trade-vision__text">
+                                    Buyers work with us because of consistent quality. Every shipment is lab-tested,
+                                    documented, and backed by our quality guarantee.
+                                </p>
+                            </div>
+                            <div className="trade-vision__item">
+                                <div className="trade-vision__number">04</div>
+                                <h4 className="trade-vision__title">Transparent Communication</h4>
+                                <p className="trade-vision__text">
+                                    We believe in proactive communication — shipment tracking, market updates,
+                                    and pricing transparency at every stage of the trade relationship.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* CTA */}
             <section className="section section--cream">
                 <div className="container" style={{ textAlign: 'center' }}>
@@ -228,3 +335,4 @@ export default function GlobalTrade() {
         </>
     );
 }
+

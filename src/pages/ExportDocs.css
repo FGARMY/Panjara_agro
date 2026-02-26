@@ -1,0 +1,197 @@
+/* ===== EXPORT DOCS PAGE ===== */
+
+/* Workflow Timeline */
+.workflow-timeline {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0;
+    position: relative;
+    padding: 40px 0;
+}
+
+.workflow-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    max-width: 200px;
+    position: relative;
+}
+
+.workflow-step__icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--green-600), var(--green-800));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 20px rgba(46, 125, 50, 0.3);
+    position: relative;
+    z-index: 2;
+}
+
+.workflow-step__number {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--green-600);
+    margin-bottom: 6px;
+}
+
+.workflow-step__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+
+.workflow-step__desc {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.workflow-step__connector {
+    position: absolute;
+    top: 36px;
+    left: calc(50% + 36px);
+    width: calc(100% - 72px);
+    height: 3px;
+    background: linear-gradient(90deg, var(--green-400), var(--gold-light));
+    z-index: 1;
+}
+
+/* Document Grid */
+.docs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.doc-card {
+    display: flex;
+    gap: 20px;
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 28px;
+    border: 1px solid var(--gray-200);
+    transition: var(--transition);
+}
+
+.doc-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+    border-color: var(--green-100);
+}
+
+.doc-card__icon {
+    width: 52px;
+    height: 52px;
+    border-radius: var(--radius-md);
+    background: var(--green-50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.doc-card__name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+
+.doc-card__desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* Readiness Grid */
+.readiness-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.readiness-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius-md);
+    padding: 28px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.readiness-card:hover {
+    background: rgba(255, 255, 255, 0.14);
+    transform: translateY(-3px);
+}
+
+.readiness-card__icon {
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.readiness-card__label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+
+.readiness-card__value {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--green-100);
+}
+
+.readiness-cta {
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .workflow-timeline {
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .workflow-step__connector {
+        display: none;
+    }
+
+    .readiness-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .docs-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .readiness-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .workflow-timeline {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .workflow-step {
+        max-width: 280px;
+    }
+}

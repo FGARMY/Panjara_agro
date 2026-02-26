@@ -159,6 +159,86 @@ export default function Quality() {
                 </div>
             </section>
 
+            {/* Farm-to-Export Traceability Dashboard */}
+            <section className="section section--alt">
+                <div className="container">
+                    <div className="section-heading fade-in">
+                        <span className="section-heading__label">Supply Chain Transparency</span>
+                        <h2 className="section-heading__title">Farm-to-Export Traceability System</h2>
+                        <div className="section-heading__bar" />
+                        <p className="section-heading__subtitle">
+                            Our traceability system ensures every batch can be traced from the farmer's field
+                            to the buyer's warehouse — complete supply chain transparency.
+                        </p>
+                    </div>
+
+                    <div className="trace-dashboard fade-in">
+                        <div className="trace-dash-card">
+                            <div className="trace-dash-card__icon">🗺️</div>
+                            <h3 className="trace-dash-card__title">Farmer Network Mapping</h3>
+                            <p className="trace-dash-card__desc">
+                                Every registered farmer is mapped with geo-coordinates, land records, and crop history.
+                                Buyers can verify the origin cluster of any shipment.
+                            </p>
+                            <div className="trace-dash-card__stats">
+                                <div><strong>2,500+</strong> Mapped Farmers</div>
+                                <div><strong>12</strong> Collection Zones</div>
+                            </div>
+                        </div>
+                        <div className="trace-dash-card">
+                            <div className="trace-dash-card__icon">🌿</div>
+                            <h3 className="trace-dash-card__title">Crop Source Identification</h3>
+                            <p className="trace-dash-card__desc">
+                                Each batch is tagged with farmer ID, plot number, variety, and harvest date.
+                                Full crop lineage documentation maintained per consignment.
+                            </p>
+                            <div className="trace-dash-card__stats">
+                                <div><strong>100%</strong> Source Tagged</div>
+                                <div><strong>Per-Batch</strong> Records</div>
+                            </div>
+                        </div>
+                        <div className="trace-dash-card">
+                            <div className="trace-dash-card__icon">🔬</div>
+                            <h3 className="trace-dash-card__title">Quality Inspection Stages</h3>
+                            <p className="trace-dash-card__desc">
+                                Multi-point inspection: at farm gate, collection center, processing unit,
+                                and pre-shipment — 4 documented quality checkpoints.
+                            </p>
+                            <div className="trace-dash-card__stats">
+                                <div><strong>4</strong> Inspection Points</div>
+                                <div><strong>Lab</strong> Certified</div>
+                            </div>
+                        </div>
+                        <div className="trace-dash-card">
+                            <div className="trace-dash-card__icon">🏭</div>
+                            <h3 className="trace-dash-card__title">Storage & Handling Practices</h3>
+                            <p className="trace-dash-card__desc">
+                                FSSAI-compliant warehousing with temperature monitoring, pest management,
+                                and FIFO inventory rotation for optimal freshness.
+                            </p>
+                            <div className="trace-dash-card__stats">
+                                <div><strong>25,000 MT</strong> Capacity</div>
+                                <div><strong>FSSAI</strong> Compliant</div>
+                            </div>
+                        </div>
+                        <div className="trace-dash-card trace-dash-card--wide">
+                            <div className="trace-dash-card__icon">📊</div>
+                            <h3 className="trace-dash-card__title">Batch Tracking Capability</h3>
+                            <p className="trace-dash-card__desc">
+                                Every export shipment carries a unique batch code linking it to farm origin, processing date,
+                                lab test results, and packaging details. Buyers receive full batch documentation with every consignment,
+                                enabling end-to-end traceability from farm to shelf.
+                            </p>
+                            <div className="trace-dash-card__stats">
+                                <div><strong>Unique</strong> Batch Codes</div>
+                                <div><strong>Digital</strong> Records</div>
+                                <div><strong>Full</strong> Documentation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Ethical Sourcing */}
             <section className="section section--green">
                 <div className="container">

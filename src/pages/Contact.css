@@ -166,6 +166,45 @@
     line-height: 1.6;
 }
 
+/* Form tab switcher */
+.contact-form-tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 28px;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.contact-form-tab {
+    padding: 12px 24px;
+    border: none;
+    background: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    position: relative;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.contact-form-tab:hover {
+    color: var(--green-700);
+}
+
+.contact-form-tab--active {
+    color: var(--green-700);
+}
+
+.contact-form-tab--active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--green-700);
+    border-radius: 2px 2px 0 0;
+}
+
 /* Quick action cards */
 .contact-actions {
     display: grid;

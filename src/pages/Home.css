@@ -1,7 +1,9 @@
 /* ===== HOME PAGE ===== */
+
+/* Trust badges — elevated card strip */
 .home-trust {
     padding: 0;
-    margin-top: -50px;
+    margin-top: -44px;
     position: relative;
     z-index: 3;
 }
@@ -16,7 +18,7 @@
 }
 
 .home-trust__item {
-    padding: 36px 24px;
+    padding: 26px 16px;
     text-align: center;
     border-right: 1px solid var(--gray-200);
     transition: var(--transition);
@@ -32,22 +34,19 @@
 
 .home-trust__number {
     font-family: var(--font-display);
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 800;
     color: var(--green-700);
     margin-bottom: 4px;
+    line-height: 1;
 }
 
 .home-trust__label {
-    font-weight: 700;
-    font-size: 0.9rem;
-    color: var(--text);
-    margin-bottom: 4px;
-}
-
-.home-trust__desc {
-    font-size: 0.8rem;
-    color: var(--text-light);
+    font-weight: 600;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 /* Category Cards */
@@ -55,7 +54,7 @@
     display: block;
     background: var(--white);
     border-radius: var(--radius-md);
-    padding: 32px 24px;
+    padding: 24px 20px;
     border: 1px solid var(--gray-200);
     text-decoration: none;
     transition: var(--transition);
@@ -70,30 +69,30 @@
 }
 
 .home-cat-card__icon {
-    font-size: 2.4rem;
+    font-size: 2rem;
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 
 .home-cat-card__name {
     font-family: var(--font-display);
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: 700;
     color: var(--text);
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .home-cat-card__items {
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     color: var(--text-secondary);
     line-height: 1.5;
 }
 
 .home-cat-card__arrow {
     position: absolute;
-    top: 24px;
-    right: 24px;
-    font-size: 1.2rem;
+    top: 20px;
+    right: 20px;
+    font-size: 1.1rem;
     color: var(--green-600);
     opacity: 0;
     transform: translateX(-8px);
@@ -105,36 +104,39 @@
     transform: translateX(0);
 }
 
-/* Sustainability */
-.sustain-card {
-    text-align: center;
-    padding: 20px;
-}
-
-.sustain-card__icon {
-    font-size: 2.2rem;
-    display: block;
-    margin-bottom: 14px;
-}
-
-.sustain-card__title {
-    font-family: var(--font-display);
-    font-size: 1.05rem;
-    margin-bottom: 8px;
-    color: var(--white);
-}
-
-.sustain-card__text {
-    font-size: 0.88rem;
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.6;
-}
-
-/* CTA */
+/* CTA Section */
 .home-cta {
     background: var(--cream);
 }
 
+.home-cta__inner {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.home-cta__title {
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    color: var(--green-800);
+    margin-bottom: 14px;
+}
+
+.home-cta__text {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 28px;
+    line-height: 1.7;
+}
+
+.home-cta__actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Responsive */
 @media (max-width: 900px) {
     .home-trust__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -153,6 +155,7 @@
     .home-trust__item {
         border-right: none;
         border-bottom: 1px solid var(--gray-200);
+        padding: 24px 16px;
     }
 
     .home-trust__item:last-child {

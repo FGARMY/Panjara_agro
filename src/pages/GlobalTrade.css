@@ -237,4 +237,144 @@
         align-items: center;
         gap: 12px;
     }
+
+    .partnership-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .trade-vision__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== PARTNERSHIP MODELS ===== */
+.partnership-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.partnership-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 36px 28px;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.partnership-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--green-100);
+}
+
+.partnership-card--featured {
+    border-color: var(--green-400);
+    box-shadow: var(--shadow-md);
+    background: linear-gradient(180deg, var(--green-50) 0%, var(--white) 40%);
+}
+
+.partnership-card__badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 4px 12px;
+    border-radius: 12px;
+    background: var(--green-700);
+    color: var(--white);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.partnership-card__icon {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.partnership-card__title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.partnership-card__desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.partnership-card__features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid var(--gray-200);
+    padding-top: 16px;
+}
+
+.partnership-card__features li {
+    font-size: 0.85rem;
+    color: var(--text);
+    padding: 6px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.partnership-card__features li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--green-600);
+    font-weight: 700;
+}
+
+/* ===== TRADE VISION ===== */
+.trade-vision__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.trade-vision__item {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-md);
+    padding: 28px;
+    transition: var(--transition);
+}
+
+.trade-vision__item:hover {
+    background: rgba(255, 255, 255, 0.14);
+}
+
+.trade-vision__number {
+    font-family: var(--font-display);
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--gold-light);
+    margin-bottom: 10px;
+}
+
+.trade-vision__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.trade-vision__text {
+    font-size: 0.88rem;
+    opacity: 0.8;
+    line-height: 1.6;
 }
