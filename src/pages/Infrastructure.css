@@ -1,0 +1,241 @@
+/* ===== INFRASTRUCTURE PAGE ===== */
+
+/* Supply chain flow */
+.infra-flow {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.infra-flow::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--green-400), var(--gold), var(--green-600));
+    z-index: 0;
+}
+
+.infra-flow-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    z-index: 1;
+    padding: 0 8px;
+}
+
+.infra-flow-step__circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 3px solid var(--green-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+}
+
+.infra-flow-step:hover .infra-flow-step__circle {
+    background: var(--green-50);
+    transform: scale(1.1);
+}
+
+.infra-flow-step__label {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text);
+    text-align: center;
+}
+
+/* Facilities grid */
+.infra-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.infra-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    padding: 36px 28px;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.infra-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--green-500), var(--gold));
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.infra-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--green-100);
+}
+
+.infra-card:hover::before {
+    opacity: 1;
+}
+
+.infra-card__icon {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+}
+
+.infra-card__title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.infra-card__desc {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.infra-card__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.infra-card__list li {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    padding-left: 20px;
+    position: relative;
+}
+
+.infra-card__list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--green-600);
+    font-weight: 700;
+}
+
+/* Capacity stats */
+.infra-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.infra-stat {
+    text-align: center;
+    padding: 28px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.infra-stat__number {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.infra-stat__label {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 500;
+}
+
+/* Port logistics */
+.infra-ports {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.infra-port {
+    text-align: center;
+    padding: 24px 16px;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    transition: var(--transition);
+}
+
+.infra-port:hover {
+    box-shadow: var(--shadow-sm);
+    border-color: var(--green-100);
+}
+
+.infra-port__icon {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.infra-port__name {
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+.infra-port__info {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+    .infra-flow {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .infra-flow::before {
+        width: 3px;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .infra-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .infra-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .infra-ports {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

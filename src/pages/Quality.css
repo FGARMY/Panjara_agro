@@ -1,0 +1,320 @@
+/* ===== QUALITY ASSURANCE PAGE ===== */
+
+/* Quality process grid */
+.quality-process {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.quality-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    padding: 36px 28px;
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.quality-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--green-500), var(--green-700));
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.quality-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--green-100);
+}
+
+.quality-card:hover::before {
+    opacity: 1;
+}
+
+.quality-card__step {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--green-600);
+    margin-bottom: 12px;
+}
+
+.quality-card__icon {
+    font-size: 2.2rem;
+    margin-bottom: 14px;
+}
+
+.quality-card__title {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.quality-card__desc {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.quality-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.quality-card__tag {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--green-700);
+    background: var(--green-50);
+    padding: 4px 12px;
+    border-radius: 50px;
+}
+
+/* Certifications strip */
+.quality-certs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quality-cert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    padding: 28px 24px;
+    min-width: 160px;
+    flex: 1;
+    transition: var(--transition);
+}
+
+.quality-cert:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--green-100);
+}
+
+.quality-cert__icon {
+    font-size: 2.2rem;
+}
+
+.quality-cert__name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-align: center;
+    color: var(--text);
+}
+
+.quality-cert__desc {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Traceability flow */
+.quality-trace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.trace-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 20px 16px;
+    min-width: 120px;
+}
+
+.trace-step__icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--green-50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 2px solid var(--green-200, var(--green-100));
+}
+
+.trace-step__label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text);
+    text-align: center;
+}
+
+.trace-arrow {
+    font-size: 1.3rem;
+    color: var(--green-400);
+    font-weight: 700;
+}
+
+/* Ethical sourcing values */
+.quality-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.quality-value {
+    text-align: center;
+    padding: 32px 20px;
+}
+
+.quality-value__icon {
+    font-size: 2.4rem;
+    margin-bottom: 14px;
+}
+
+.quality-value__title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--white);
+}
+
+.quality-value__text {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .quality-process {
+        grid-template-columns: 1fr;
+    }
+
+    .quality-certs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quality-cert {
+        width: 100%;
+    }
+
+    .quality-trace {
+        flex-direction: column;
+    }
+
+    .trace-arrow {
+        transform: rotate(90deg);
+    }
+
+    .quality-values {
+        grid-template-columns: 1fr;
+    }
+
+    .trace-dashboard {
+        grid-template-columns: 1fr;
+    }
+
+    .trace-dash-card--wide {
+        grid-column: 1;
+    }
+}
+
+/* ===== TRACEABILITY DASHBOARD ===== */
+.trace-dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.trace-dash-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 32px 28px;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.trace-dash-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--green-500), var(--gold-light));
+}
+
+.trace-dash-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--green-100);
+}
+
+.trace-dash-card--wide {
+    grid-column: 1 / -1;
+}
+
+.trace-dash-card__icon {
+    font-size: 2rem;
+    margin-bottom: 14px;
+}
+
+.trace-dash-card__title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.trace-dash-card__desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.trace-dash-card__stats {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-top: 14px;
+    border-top: 1px solid var(--gray-200);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.trace-dash-card__stats strong {
+    color: var(--green-700);
+    font-weight: 700;
+    margin-right: 4px;
+}

@@ -1,0 +1,176 @@
+/* ===== SERVICES PAGES (Export + Import) ===== */
+.services-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.services-timeline::before {
+    content: '';
+    position: absolute;
+    left: 28px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--green-400), var(--green-100));
+}
+
+.service-step {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.service-step:last-child {
+    margin-bottom: 0;
+}
+
+.service-step__number {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--green-700);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1rem;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 14px rgba(46, 125, 50, 0.3);
+}
+
+.service-step__content {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    padding: 28px 24px;
+    flex: 1;
+    transition: var(--transition);
+}
+
+.service-step__content:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--green-100);
+}
+
+.service-step__icon {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.service-step__title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.service-step__desc {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.service-step__highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.service-step__highlights li {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--green-700);
+    background: var(--green-50);
+    padding: 4px 12px;
+    border-radius: 50px;
+}
+
+/* Service Cards Grid - for Import page */
+.services-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    padding: 32px 28px;
+    transition: var(--transition);
+}
+
+.service-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--green-100);
+}
+
+.service-card__icon {
+    font-size: 2rem;
+    margin-bottom: 14px;
+}
+
+.service-card__title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.service-card__desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.service-card__list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.service-card__list li {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    padding-left: 16px;
+    position: relative;
+}
+
+.service-card__list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--green-500);
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .services-timeline::before {
+        left: 20px;
+    }
+
+    .service-step {
+        gap: 18px;
+    }
+
+    .service-step__number {
+        width: 40px;
+        height: 40px;
+        font-size: 0.85rem;
+    }
+
+    .services-cards {
+        grid-template-columns: 1fr;
+    }
+}

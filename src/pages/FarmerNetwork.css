@@ -1,0 +1,154 @@
+/* ===== FARMER NETWORK PAGE ===== */
+.farmer-impact {
+    margin-top: -40px;
+    position: relative;
+    z-index: 3;
+    padding-bottom: 0;
+}
+
+.farmer-impact__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: var(--green-800);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+    overflow: hidden;
+}
+
+.farmer-impact__item {
+    padding: 36px 20px;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.farmer-impact__item:last-child {
+    border-right: none;
+}
+
+.farmer-impact__number {
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--gold-light);
+    margin-bottom: 4px;
+}
+
+.farmer-impact__label {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+.farmer-story {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.farmer-story p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.farmer-story__quote {
+    background: var(--green-50);
+    border-left: 4px solid var(--green-600);
+    padding: 24px 28px;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--green-800);
+    font-weight: 500;
+    margin-top: 24px;
+    line-height: 1.6;
+}
+
+.region-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    padding: 24px 20px;
+    transition: var(--transition);
+}
+
+.region-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--green-100);
+    transform: translateY(-2px);
+}
+
+.region-card__state {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    color: var(--green-800);
+    margin-bottom: 8px;
+}
+
+.region-card__crops {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.region-card__farmers {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--green-600);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.farmer-program-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-md);
+    padding: 28px 24px;
+    transition: var(--transition);
+}
+
+.farmer-program-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-4px);
+}
+
+.farmer-program-card__icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.farmer-program-card__title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+.farmer-program-card__text {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+    .farmer-impact__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .farmer-impact__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .farmer-impact__item {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .farmer-impact__item:last-child {
+        border-bottom: none;
+    }
+}

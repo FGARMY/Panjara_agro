@@ -1,0 +1,102 @@
+/* ===== TRADE PLATFORMS PAGE ===== */
+
+.tp-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.tp-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 32px 28px;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.tp-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--green-100);
+}
+
+.tp-card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.tp-card__icon {
+    font-size: 2rem;
+}
+
+.tp-card__status {
+    padding: 4px 14px;
+    border-radius: 20px;
+    color: var(--white);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tp-card__name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.tp-card__desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.tp-card__btn {
+    padding: 10px 20px !important;
+    font-size: 0.85rem !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.tp-card__coming {
+    font-size: 0.82rem;
+    color: var(--text-light);
+    font-style: italic;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Reasons */
+.tp-reasons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+@media (max-width: 1024px) {
+    .tp-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tp-reasons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .tp-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tp-reasons {
+        grid-template-columns: 1fr;
+    }
+}
