@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import { tradePlatforms } from '../data/companyData';
 import heroBg from '../assets/hero-banner.png';
@@ -15,6 +16,12 @@ export default function TradePlatforms() {
 
     return (
         <>
+            <SEO
+                title="Trade Platforms — Find Us on Global B2B Marketplaces"
+                description="Connect with Panjara Agro on IndiaMart, TradeIndia, Alibaba & other global B2B trade platforms. Verified seller profiles with full product catalogs."
+                path="/trade-platforms"
+                keywords="B2B trade platform India, IndiaMart seller, agricultural exporter Alibaba, TradeIndia agro, global marketplace agricultural"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="trade-platforms-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

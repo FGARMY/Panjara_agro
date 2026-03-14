@@ -1,3 +1,4 @@
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import heroBg from '../assets/hero-banner.png';
 import './Services.css';
@@ -7,6 +8,12 @@ export default function ExportServices() {
 
     return (
         <>
+            <SEO
+                title="Export Services — Farm to Port Agricultural Commodity Exports"
+                description="End-to-end agricultural commodity export solutions from India — bulk aggregation, sorting, grading, custom packaging, export documentation & international logistics."
+                path="/export-services"
+                keywords="agro export services India, agricultural commodity export, bulk grain exporter, spices export company, export documentation India"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="export-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

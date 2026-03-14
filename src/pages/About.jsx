@@ -1,4 +1,5 @@
 import Hero from '../components/Hero';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import { leadership, operationsTeam, infrastructure, logisticsPartners } from '../data/companyData';
 import heroBg from '../assets/hero-banner.png';
@@ -10,6 +11,12 @@ export default function About() {
 
     return (
         <>
+            <SEO
+                title="About Us — Our Mission, Vision & Team"
+                description="Learn about Panjara Agro Farmers Producer Company — a farmer-owned enterprise connecting Indian farming communities to global agricultural markets through direct trade."
+                path="/about"
+                keywords="about panjara agro, farmer producer company India, FPC agro, farmer collective export, agricultural trade company Maharashtra"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="about-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

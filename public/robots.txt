@@ -1,0 +1,6 @@
+# robots.txt for Panjara Agro Farmers Producer Company Limited
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://panjara-agro.vercel.app/sitemap.xml

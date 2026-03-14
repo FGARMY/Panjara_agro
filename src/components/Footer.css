@@ -30,6 +30,7 @@
     font-size: 1.2rem;
     color: var(--white);
     letter-spacing: 1px;
+    white-space: 'pre-line';
 }
 
 .footer__logo-tagline {

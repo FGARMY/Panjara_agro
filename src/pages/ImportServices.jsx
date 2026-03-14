@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import heroBg from '../assets/hero-banner.png';
 import './Services.css';
@@ -8,6 +9,12 @@ export default function ImportServices() {
 
     return (
         <>
+            <SEO
+                title="Import Services — Agricultural Commodity Sourcing for India"
+                description="Import agricultural commodities into India with Panjara Agro. Global sourcing, supplier verification, quality inspection, customs clearance & warehouse redistribution."
+                path="/import-services"
+                keywords="agricultural import India, commodity sourcing, import trade facilitation, food import India, agro import services"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="import-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

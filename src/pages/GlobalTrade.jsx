@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import AnimatedCounter from '../components/AnimatedCounter';
 import heroBg from '../assets/hero-banner.png';
@@ -57,6 +58,12 @@ export default function GlobalTrade() {
 
     return (
         <>
+            <SEO
+                title="Global Trade Presence — Exports to 15+ Countries"
+                description="Panjara Agro exports Indian agricultural commodities to 15+ countries across Middle East, Africa, Southeast Asia, Europe & Americas. Flexible partnership & supply models."
+                path="/global-trade"
+                keywords="global agro trade India, agricultural export destinations, Middle East agro exporter, Africa food grain supply, international trade partner India"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="globaltrade-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

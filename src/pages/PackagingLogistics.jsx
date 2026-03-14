@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import heroBg from '../assets/hero-banner.png';
 import './PackagingLogistics.css';
@@ -33,6 +34,12 @@ export default function PackagingLogistics() {
 
     return (
         <>
+            <SEO
+                title="Packaging & Logistics — Export-Grade Shipping Solutions"
+                description="Export-grade packaging (PP bags, jute, FIBC, vacuum), container loading, palletization, cold chain & freight coordination from India's major ports."
+                path="/packaging-logistics"
+                keywords="export packaging India, container loading agricultural, cold chain logistics, FIBC bags, freight coordination agro, shipping agricultural commodities"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="packaging-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

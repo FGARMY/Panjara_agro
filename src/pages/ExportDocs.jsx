@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import heroBg from '../assets/hero-banner.png';
 import './ExportDocs.css';
@@ -27,6 +28,12 @@ export default function ExportDocs() {
 
     return (
         <>
+            <SEO
+                title="Export Documentation & Logistics Support"
+                description="Complete export documentation capability — commercial invoices, bill of lading, certificates of origin, phytosanitary certificates, LC documents & customs clearance."
+                path="/export-docs"
+                keywords="export documentation India, bill of lading, certificate of origin, phytosanitary certificate, export customs clearance, trade documentation"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="export-docs-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

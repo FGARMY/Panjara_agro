@@ -1,4 +1,5 @@
 import AnimatedCounter from '../components/AnimatedCounter';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import farmerBg from '../assets/farmer-network.png';
 import './FarmerNetwork.css';
@@ -8,6 +9,12 @@ export default function FarmerNetwork() {
 
     return (
         <>
+            <SEO
+                title="Farmer Network — 5000+ Farmers Across 8 States"
+                description="Panjara Agro's farmer network spans 5000+ farmers across 8 Indian states. Direct sourcing from farmer clusters ensures quality, traceability & fair pricing."
+                path="/farmer-network"
+                keywords="farmer network India, farmer producer company, direct farm sourcing, smallholder farmers, agricultural cooperative"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${farmerBg})` }} id="farmer-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

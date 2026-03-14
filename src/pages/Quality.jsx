@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import heroBg from '../assets/hero-banner.png';
 import './Quality.css';
@@ -71,6 +72,12 @@ export default function Quality() {
 
     return (
         <>
+            <SEO
+                title="Quality Assurance — 6-Stage Quality Control & Traceability"
+                description="Every grain, spice & pulse is quality-controlled through our 6-stage pipeline — from farm inspection to pre-shipment testing. FSSAI, ISO 22000 & HACCP compliant."
+                path="/quality"
+                keywords="agro quality assurance India, food safety standards, FSSAI certified exporter, ISO 22000 agriculture, farm traceability, export quality control"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="quality-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

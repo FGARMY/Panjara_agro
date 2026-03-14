@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import AnimatedCounter from '../components/AnimatedCounter';
 import heroBg from '../assets/hero-banner.png';
@@ -53,6 +54,12 @@ export default function Infrastructure() {
 
     return (
         <>
+            <SEO
+                title="Infrastructure — Farm-to-Port Supply Chain Facilities"
+                description="Panjara Agro's end-to-end infrastructure: 20+ collection centers, 50,000 MT warehouse capacity, processing units, cold chain & multi-port logistics network."
+                path="/infrastructure"
+                keywords="agricultural infrastructure India, warehouse capacity, cold chain agro, processing facility, farm to port logistics"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="infra-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

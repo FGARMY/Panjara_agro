@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import InquiryForm from '../components/InquiryForm';
 import RFQForm from '../components/RFQForm';
@@ -11,6 +12,12 @@ export default function Contact() {
 
     return (
         <>
+            <SEO
+                title="Contact Us — Trade Inquiry & Bulk Quote"
+                description="Get in touch with Panjara Agro for bulk agricultural commodity quotes, trade inquiries, and partnership opportunities. Our team responds within 24 hours."
+                path="/contact"
+                keywords="contact agro exporter India, bulk quote agricultural commodities, trade inquiry, RFQ agricultural products, agricultural trade partner"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="contact-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

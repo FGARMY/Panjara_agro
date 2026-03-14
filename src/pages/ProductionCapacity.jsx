@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import AnimatedCounter from '../components/AnimatedCounter';
 import { fpoStats } from '../data/companyData';
@@ -10,6 +11,12 @@ export default function ProductionCapacity() {
 
     return (
         <>
+            <SEO
+                title="Production Capacity — Farmer Network & Crop Clusters"
+                description="Data-driven production capability: 5000+ registered farmers, 25,000+ acres, 20+ collection centers. Monthly supply estimates for grains, pulses, spices & oilseeds."
+                path="/production-capacity"
+                keywords="agricultural production capacity India, farmer producer company capacity, crop cluster India, monthly supply capability, agro aggregation"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="production-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

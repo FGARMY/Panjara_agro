@@ -1,3 +1,4 @@
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import { compliance } from '../data/companyData';
 import heroBg from '../assets/hero-banner.png';
@@ -15,6 +16,12 @@ export default function Compliance() {
 
     return (
         <>
+            <SEO
+                title="Compliance & Export Registration — APEDA, FSSAI, IEC, GST"
+                description="Panjara Agro is fully registered and export-compliant: IEC, APEDA, FSSAI, GST & FPO certifications. Download compliance certificates and verify our trade credentials."
+                path="/compliance"
+                keywords="export compliance India, APEDA registered exporter, IEC certificate, FSSAI licensed, GST registered agro company, export registration"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${heroBg})` }} id="compliance-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

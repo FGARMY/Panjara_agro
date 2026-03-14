@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import products from '../data/products.json';
 import productsBg from '../assets/products-hero.png';
@@ -19,6 +20,12 @@ export default function Products() {
 
     return (
         <>
+            <SEO
+                title="Agricultural Products Catalog | Spices, Grains, Pulses, Oilseeds"
+                description="Browse our export-ready catalog of Indian agricultural commodities — spices, food grains, pulses, oilseeds & fresh produce. Bulk supply with quality certification and full traceability."
+                path="/products"
+                keywords="Indian agricultural products, spices exporter, food grains supplier India, pulses wholesale, oilseeds export, rice exporter, turmeric supplier"
+            />
             <section className="hero hero--inner" style={{ backgroundImage: `url(${productsBg})` }} id="products-hero">
                 <div className="hero__overlay" />
                 <div className="hero__content container">

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import AnimatedCounter from '../components/AnimatedCounter';
+import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import heroBg from '../assets/hero-banner.png';
 import './Home.css';
@@ -10,6 +11,12 @@ export default function Home() {
 
     return (
         <>
+            <SEO
+                title="Farmer Producer Company | Indian Agro Exports"
+                description="Panjara Agro Farmers Producer Company Limited — Premium Indian agricultural commodity exports. Direct farm sourcing of spices, food grains, pulses & oilseeds for global buyers."
+                path="/"
+                keywords="agro export India, farmer producer company, indian spices exporter, food grains supplier, pulses exporter, bulk agricultural supply, APEDA registered"
+            />
             {/* HERO — sharp, trade-focused */}
             <Hero
                 bg={heroBg}
