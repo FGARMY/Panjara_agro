@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
-import Hero from '../components/Hero';
+import HeroSlider from '../components/HeroSlider';
 import AnimatedCounter from '../components/AnimatedCounter';
 import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
-import heroBg from '../assets/hero-banner.png';
 import './Home.css';
 
 export default function Home() {
@@ -17,15 +16,8 @@ export default function Home() {
                 path="/"
                 keywords="agro export India, farmer producer company, indian spices exporter, food grains supplier, pulses exporter, bulk agricultural supply, APEDA registered"
             />
-            {/* HERO — sharp, trade-focused */}
-            <Hero
-                bg={heroBg}
-                title="Reliable Agro Exports From India's Farmer Network"
-                subtitle="Direct sourcing · Quality assured · Export-ready supply for global buyers"
-            >
-                <Link to="/contact" className="btn btn--gold">Request Quotation</Link>
-                <Link to="/products" className="btn btn--secondary">View Products</Link>
-            </Hero>
+            {/* HERO SLIDER — spice-themed auto-sliding showcase */}
+            <HeroSlider />
 
             {/* TRUST METRICS — immediate credibility */}
             <section className="section home-trust">
