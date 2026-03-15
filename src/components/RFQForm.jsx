@@ -13,12 +13,17 @@ export default function RFQForm() {
         deliveryTimeline: '',
         destinationPort: '',
         message: '',
+        gdprConsent: false
     });
     const [fileName, setFileName] = useState('');
     const [submitted, setSubmitted] = useState(false);
 
     const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
+        const { name, value, type, checked } = e.target;
+        setFormData(prev => ({
+            ...prev,
+            [name]: type === 'checkbox' ? checked : value
+        }));
     };
 
     const handleFileChange = (e) => {
@@ -35,7 +40,7 @@ export default function RFQForm() {
         setFormData({
             buyerName: '', company: '', country: '', product: '',
             quantity: '', packagingPreference: '', deliveryTimeline: '',
-            destinationPort: '', message: '',
+            destinationPort: '', message: '', gdprConsent: false
         });
         setFileName('');
     };
@@ -123,6 +128,22 @@ export default function RFQForm() {
                         )}
                     </div>
                 </div>
+            </div>
+
+            <div className="form-group form-group--checkbox" style={{ marginTop: '20px' }}>
+                <label className="checkbox-label" style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', fontSize: '0.85rem' }}>
+                    <input
+                        type="checkbox"
+                        name="gdprConsent"
+                        checked={formData.gdprConsent}
+                        onChange={handleChange}
+                        required
+                        style={{ marginTop: '4px' }}
+                    />
+                    <span>
+                        I agree to the <a href="/privacy-policy" style={{ color: 'var(--color-primary)', textDecoration: 'underline' }}>Privacy Policy</a> and consent to having my data collected to process this inquiry. *
+                    </span>
+                </label>
             </div>
 
             <button type="submit" className="btn btn--primary rfq-form__submit">

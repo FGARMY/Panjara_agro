@@ -16,6 +16,9 @@ import ExportDocs from './pages/ExportDocs';
 import ProductionCapacity from './pages/ProductionCapacity';
 import PackagingLogistics from './pages/PackagingLogistics';
 import TradePlatforms from './pages/TradePlatforms';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
+import CookieConsent from './components/CookieConsent';
 
 export default function App() {
   return (
@@ -39,9 +42,12 @@ export default function App() {
           <Route path="/leadership" element={<Navigate to="/about" replace />} />
           <Route path="/packaging-logistics" element={<PackagingLogistics />} />
           <Route path="/trade-platforms" element={<TradePlatforms />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
         </Routes>
       </main>
       <Footer />
+      <CookieConsent />
     </BrowserRouter>
   );
 }

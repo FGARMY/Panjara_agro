@@ -47,12 +47,14 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Connect */}
+                    {/* Connect & Legal */}
                     <div className="footer__col">
-                        <h4 className="footer__col-title">Connect</h4>
+                        <h4 className="footer__col-title">Connect & Legal</h4>
                         <ul className="footer__col-links">
                             <li><Link to="/trade-platforms">Trade Platforms</Link></li>
                             <li><Link to="/contact">Contact Us</Link></li>
+                            <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                            <li><Link to="/terms-of-service">Terms of Service</Link></li>
                         </ul>
                         <div className="footer__contact-info">
                             <p>📧 panjaraagro@gmail.com</p>

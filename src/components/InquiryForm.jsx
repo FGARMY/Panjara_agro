@@ -12,11 +12,16 @@ export default function InquiryForm({ preSelectedProduct = '' }) {
         quantity: '',
         certifications: '',
         message: '',
+        gdprConsent: false
     });
     const [submitted, setSubmitted] = useState(false);
 
     const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
+        const { name, value, type, checked } = e.target;
+        setFormData(prev => ({
+            ...prev,
+            [name]: type === 'checkbox' ? checked : value
+        }));
     };
 
     const handleSubmit = (e) => {
@@ -26,7 +31,7 @@ export default function InquiryForm({ preSelectedProduct = '' }) {
         setTimeout(() => setSubmitted(false), 5000);
         setFormData({
             companyName: '', contactName: '', email: '', phone: '',
-            country: '', productRequired: '', quantity: '', certifications: '', message: '',
+            country: '', productRequired: '', quantity: '', certifications: '', message: '', gdprConsent: false
         });
     };
 
@@ -84,6 +89,23 @@ export default function InquiryForm({ preSelectedProduct = '' }) {
                 <label htmlFor="message">Additional Message</label>
                 <textarea id="message" name="message" value={formData.message} onChange={handleChange} placeholder="Any specific requirements, preferred packaging, delivery terms..." />
             </div>
+
+            <div className="form-group form-group--checkbox" style={{ gridColumn: '1 / -1' }}>
+                <label className="checkbox-label" style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', fontSize: '0.85rem' }}>
+                    <input
+                        type="checkbox"
+                        name="gdprConsent"
+                        checked={formData.gdprConsent}
+                        onChange={handleChange}
+                        required
+                        style={{ marginTop: '4px' }}
+                    />
+                    <span>
+                        I agree to the <a href="/privacy-policy" style={{ color: 'var(--color-primary)', textDecoration: 'underline' }}>Privacy Policy</a> and consent to having my data collected to process this inquiry. *
+                    </span>
+                </label>
+            </div>
+
             <button type="submit" className="btn btn--primary inquiry-form__submit">
                 Submit Trade Inquiry →
             </button>
