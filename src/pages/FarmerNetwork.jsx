@@ -1,7 +1,7 @@
 import AnimatedCounter from '../components/AnimatedCounter';
 import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
-import farmerBg from '../assets/farmer-network.png';
+const farmerBg = 'https://images.unsplash.com/photo-1592982537447-6f2c6e6eb12d?ixlib=rb-4.0.3&auto=format&fit=crop&w=3840&q=80';
 import './FarmerNetwork.css';
 
 export default function FarmerNetwork() {

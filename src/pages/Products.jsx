@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import products from '../data/products.json';
-import productsBg from '../assets/products-hero.png';
+const productsBg = 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=3840&q=80';
 import './Products.css';
 
 const CATEGORIES = ['Whole Spices', 'Ground Spices', 'Blended Spices'];

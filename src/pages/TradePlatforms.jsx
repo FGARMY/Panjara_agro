@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import { tradePlatforms } from '../data/companyData';
-import heroBg from '../assets/hero-banner.png';
+const heroBg = 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=3840&q=80';
 import './TradePlatforms.css';
 
 const statusColors = {
