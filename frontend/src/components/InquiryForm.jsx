@@ -16,6 +16,9 @@ export default function InquiryForm({ preSelectedProduct = '' }) {
     });
     const [submitted, setSubmitted] = useState(false);
 
+    const [loading, setLoading] = useState(false);
+    const [errorMsg, setErrorMsg] = useState('');
+
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
         setFormData(prev => ({
@@ -24,15 +27,28 @@ export default function InquiryForm({ preSelectedProduct = '' }) {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Inquiry submitted:', formData);
-        setSubmitted(true);
-        setTimeout(() => setSubmitted(false), 5000);
-        setFormData({
-            companyName: '', contactName: '', email: '', phone: '',
-            country: '', productRequired: '', quantity: '', certifications: '', message: '', gdprConsent: false
-        });
+        setLoading(true);
+        setErrorMsg('');
+        
+        try {
+            // Import api function dynamically or add it at the top
+            const { submitInquiry } = await import('../services/api');
+            await submitInquiry(formData);
+            
+            setSubmitted(true);
+            setTimeout(() => setSubmitted(false), 5000);
+            setFormData({
+                companyName: '', contactName: '', email: '', phone: '',
+                country: '', productRequired: '', quantity: '', certifications: '', message: '', gdprConsent: false
+            });
+        } catch (err) {
+            console.error('Submission failed:', err);
+            setErrorMsg(err.error || 'Failed to submit inquiry. Please try again.');
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -40,6 +56,11 @@ export default function InquiryForm({ preSelectedProduct = '' }) {
             {submitted && (
                 <div className="inquiry-form__success">
                     ✅ Thank you! Your inquiry has been received. Our trade team will contact you within 24 hours.
+                </div>
+            )}
+            {errorMsg && (
+                <div className="inquiry-form__error" style={{ color: 'red', marginBottom: '1rem', padding: '1rem', background: '#ffebee', borderRadius: '4px' }}>
+                    ❌ {errorMsg}
                 </div>
             )}
             <div className="inquiry-form__grid">
@@ -106,8 +127,8 @@ export default function InquiryForm({ preSelectedProduct = '' }) {
                 </label>
             </div>
 
-            <button type="submit" className="btn btn--primary inquiry-form__submit">
-                Submit Trade Inquiry →
+            <button type="submit" className="btn btn--primary inquiry-form__submit" disabled={loading}>
+                {loading ? 'Submitting...' : 'Submit Trade Inquiry →'}
             </button>
         </form>
     );

@@ -1,34 +1,39 @@
 @echo off
-title Panjara Agro - Website Launcher
+title Panjara Agro - Full-Stack Launcher
 color 0A
 echo.
-echo  ╔══════════════════════════════════════════╗
-echo  ║   PANJARA AGRO - Premium Indian Spices   ║
-echo  ║   One-Click Website Launcher              ║
-echo  ╚══════════════════════════════════════════╝
+echo  ==============================================================
+echo  ===   PANJARA AGRO - Premium Indian Agro Exports         ===
+echo  ===   One-Click Full-Stack Launcher                      ===
+echo  ==============================================================
 echo.
 
 cd /d "%~dp0"
 
-:: Check if node_modules exists, install if not
-if not exist "node_modules\" (
-    echo  [1/3] Installing dependencies...
-    call npm install
-    echo.
-) else (
-    echo  [1/3] Dependencies already installed ✓
+:: 1. Check and Install Dependencies
+echo  [1/3] Verifying dependencies...
+if not exist "node_modules\" call npm install
+if not exist "frontend\node_modules\" (
+    cd frontend && call npm install && cd ..
+)
+if not exist "backend\node_modules\" (
+    cd backend && call npm install && cd ..
 )
 
-echo  [2/3] Starting development server...
 echo.
-echo  Website will open at: http://localhost:5173
-echo  Press Ctrl+C to stop the server.
+echo  [2/3] Starting Development Servers...
+echo  ==============================================================
+echo  === Frontend: http://localhost:5173                       ===
+echo  === Backend:  http://localhost:3001                       ===
+echo  ==============================================================
 echo.
 
-:: Wait 2 seconds then open browser
-start "" /b cmd /c "timeout /t 2 /nobreak >nul && start http://localhost:5173"
+:: 2. Wait and Open Browser
+:: We use a slightly longer timeout (5s) to ensure Vite is ready
+start "" /b cmd /c "timeout /t 5 /nobreak >nul && start http://localhost:5173"
 
-:: Start dev server (this blocks until stopped)
+:: 3. Start concurrent dev servers
+echo  [3/3] Launching Monorepo...
 call npm run dev
 
 pause

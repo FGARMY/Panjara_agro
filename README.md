@@ -120,36 +120,36 @@ Indian agriculture suffers from a fragmented supply chain where **middlemen capt
 
 - **Node.js** 18+ — [Download](https://nodejs.org/)
 - **npm** (comes with Node.js)
+- **Supabase Account** for the database
 
-### One-Click Start (Windows)
-
-Double-click **`run.bat`** in the project root — it installs dependencies, opens your browser, and starts the dev server.
-
-### Manual Installation
+### Local Development Setup
 
 ```bash
 # 1. Clone the repository
 git clone https://github.com/FGARMY/Panjara_agro.git
 cd Panjara_agro
 
-# 2. Install dependencies
+# 2. Setup Backend Environment Variables
+# Create a .env file in the backend/ directory with your Supabase credentials
+echo "SUPABASE_URL=your_url" > backend/.env
+echo "SUPABASE_ANON_KEY=your_key" >> backend/.env
+echo "PORT=3001" >> backend/.env
+
+# 3. Install dependencies across the monorepo
 npm install
 
-# 3. Start the development server
+# 4. Start the development servers (Frontend & Backend simultaneously)
 npm run dev
 
-# 4. Open in browser
+# 5. Open in browser
 # Navigate to http://localhost:5173
 ```
 
 ### Build for Production
 
 ```bash
-# Create optimized production build
+# Create optimized production build for the frontend
 npm run build
-
-# Preview the production build locally
-npm run preview
 ```
 
 ---

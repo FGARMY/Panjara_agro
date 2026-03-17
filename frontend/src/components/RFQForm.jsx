@@ -18,6 +18,9 @@ export default function RFQForm() {
     const [fileName, setFileName] = useState('');
     const [submitted, setSubmitted] = useState(false);
 
+    const [loading, setLoading] = useState(false);
+    const [errorMsg, setErrorMsg] = useState('');
+
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
         setFormData(prev => ({
@@ -32,17 +35,33 @@ export default function RFQForm() {
         }
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('RFQ Submitted:', { ...formData, attachedFile: fileName });
-        setSubmitted(true);
-        setTimeout(() => setSubmitted(false), 6000);
-        setFormData({
-            buyerName: '', company: '', country: '', product: '',
-            quantity: '', packagingPreference: '', deliveryTimeline: '',
-            destinationPort: '', message: '', gdprConsent: false
-        });
-        setFileName('');
+        setLoading(true);
+        setErrorMsg('');
+
+        try {
+            // Import api function dynamically or add it at the top
+            const { submitQuotation } = await import('../services/api');
+            // Mock file attachment URL for now since file upload requires storage bucket integration
+            const payload = { ...formData, attachedFileUrl: fileName ? `https://dummy/url/${fileName}` : null };
+            
+            await submitQuotation(payload);
+            
+            setSubmitted(true);
+            setTimeout(() => setSubmitted(false), 6000);
+            setFormData({
+                buyerName: '', company: '', country: '', product: '',
+                quantity: '', packagingPreference: '', deliveryTimeline: '',
+                destinationPort: '', message: '', gdprConsent: false
+            });
+            setFileName('');
+        } catch (err) {
+            console.error('Submission failed:', err);
+            setErrorMsg(err.error || 'Failed to submit RFQ. Please try again.');
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -50,6 +69,11 @@ export default function RFQForm() {
             {submitted && (
                 <div className="rfq-form__success">
                     ✅ Your Request for Quotation has been received! Our export team will respond within 24 business hours with a detailed proposal.
+                </div>
+            )}
+            {errorMsg && (
+                <div className="rfq-form__error" style={{ color: 'red', marginBottom: '1rem', padding: '1rem', background: '#ffebee', borderRadius: '4px' }}>
+                    ❌ {errorMsg}
                 </div>
             )}
 
@@ -146,8 +170,8 @@ export default function RFQForm() {
                 </label>
             </div>
 
-            <button type="submit" className="btn btn--primary rfq-form__submit">
-                Submit Request for Quotation →
+            <button type="submit" className="btn btn--primary rfq-form__submit" disabled={loading}>
+                {loading ? 'Submitting...' : 'Submit Request for Quotation →'}
             </button>
         </form>
     );
