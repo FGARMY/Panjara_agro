@@ -9,7 +9,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     background: linear-gradient(135deg, var(--green-800) 0%, var(--green-700) 100%);
+=======
+>>>>>>> db5b3da377ec966ec62fa6009debd359fe978e0c
 }
 
 /* Slide backgrounds */
