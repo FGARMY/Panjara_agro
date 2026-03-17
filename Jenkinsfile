@@ -3,13 +3,7 @@ pipeline {
 
     stages {
 
-        stage('Clone') {
-            steps {
-                git 'https://github.com/FGARMY/Panjara_agro.git'
-            }
-        }
-
-        stage('Build App') {
+        stage('Install & Build') {
             steps {
                 sh 'npm install'
                 sh 'npm run build'
