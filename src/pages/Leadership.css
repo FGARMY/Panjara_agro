@@ -1,0 +1,288 @@
+/* ===== LEADERSHIP PAGE ===== */
+
+/* Board of Directors */
+.leader-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+}
+
+.leader-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 36px 24px;
+    text-align: center;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.leader-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-6px);
+    border-color: var(--green-100);
+}
+
+.leader-card__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--green-600), var(--green-800));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 16px rgba(46, 125, 50, 0.3);
+}
+
+.leader-card__initials {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+.leader-card__name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+.leader-card__role {
+    font-size: 0.82rem;
+    color: var(--green-700);
+    font-weight: 600;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.leader-card__bio {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.leader-card__dept {
+    font-size: 0.72rem;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-top: 12px;
+    border-top: 1px solid var(--gray-200);
+}
+
+/* Operations Team */
+.ops-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.ops-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 28px;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.ops-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-3px);
+}
+
+.ops-card__header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 12px;
+}
+
+.ops-card__avatar-sm {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--brown-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.ops-card__name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.ops-card__role {
+    font-size: 0.78rem;
+    color: var(--green-700);
+    font-weight: 600;
+}
+
+.ops-card__dept-badge {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 12px;
+    background: var(--green-50);
+    color: var(--green-700);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.ops-card__responsibilities {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* Infrastructure */
+.infra-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.infra-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 28px;
+    text-align: center;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.infra-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--green-100);
+}
+
+.infra-card__icon {
+    font-size: 2.2rem;
+    margin-bottom: 14px;
+}
+
+.infra-card__name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+.infra-card__type {
+    font-size: 0.78rem;
+    color: var(--green-700);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
+.infra-card__detail {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.infra-card__detail-label {
+    font-size: 0.78rem;
+    color: var(--text-light);
+    font-weight: 600;
+}
+
+.infra-card__detail-value {
+    font-size: 0.85rem;
+    color: var(--green-700);
+    font-weight: 700;
+}
+
+.infra-card__features {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Logistics Partners */
+.logistics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.logistics-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius-md);
+    padding: 24px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.logistics-card:hover {
+    background: rgba(255, 255, 255, 0.14);
+    transform: translateY(-3px);
+}
+
+.logistics-card__name {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.logistics-card__type {
+    font-size: 0.78rem;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1024px) {
+    .leader-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ops-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .infra-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .logistics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .leader-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ops-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .infra-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .logistics-grid {
+        grid-template-columns: 1fr;
+    }
+}

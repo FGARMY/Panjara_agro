@@ -1,0 +1,43 @@
+.inquiry-form__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 24px;
+    margin-bottom: 16px;
+}
+
+.inquiry-form__success {
+    background: var(--green-50);
+    border: 1px solid var(--green-400);
+    color: var(--green-800);
+    padding: 16px 20px;
+    border-radius: var(--radius-sm);
+    margin-bottom: 24px;
+    font-weight: 500;
+    animation: fadeInDown 0.4s ease;
+}
+
+.inquiry-form__submit {
+    margin-top: 12px;
+    width: 100%;
+    justify-content: center;
+    padding: 16px 32px;
+    font-size: 1rem;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 640px) {
+    .inquiry-form__grid {
+        grid-template-columns: 1fr;
+    }
+}
