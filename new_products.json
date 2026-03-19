@@ -1,0 +1,977 @@
+[
+    {
+        "id": "white-onion-powder",
+        "name": "White Onion Powder",
+        "category": "Dehydrated Vegetables",
+        "description": "Premium dehydrated white onion powder. Sharp, sweet flavor, ideal for soups, sauces, and seasoning blends.",
+        "price": 346,
+        "image": "/images/products/white-onion-powder.png",
+        "keywords": [
+            "white onion powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 72,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "white-onion-flakes",
+        "name": "White Onion Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Crispy dehydrated white onion flakes. Maintained flavor and texture, perfect for bulk food processing and industrial kitchens.",
+        "price": 456,
+        "image": "/images/products/white-onion-flakes.png",
+        "keywords": [
+            "white onion flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 76,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "red-onion-flakes",
+        "name": "Red Onion Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Premium dehydrated red onion flakes. Strong aroma and vibrant flavor for culinary applications.",
+        "price": 189,
+        "image": "/images/products/red-onion-flakes.png",
+        "keywords": [
+            "red onion flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 83,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "red-onion-powder",
+        "name": "Red Onion Powder",
+        "category": "Dehydrated Vegetables",
+        "description": "Fine red onion powder, highly concentrated flavor. Essential for spice mixes and institutional catering.",
+        "price": 541,
+        "image": "/images/products/red-onion-powder.png",
+        "keywords": [
+            "red onion powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 82,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "ginger-powder",
+        "name": "Ginger Powder",
+        "category": "Ground Spices",
+        "description": "Sun-dried and finely ground ginger powder. High gingerol content, pungent and aromatic.",
+        "price": 546,
+        "image": "/images/products/ginger-powder.png",
+        "keywords": [
+            "ginger powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 74,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "ginger-flakes",
+        "name": "Ginger Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Dehydrated ginger flakes. Ideal for tea blends, confectionery, and medicinal extractions.",
+        "price": 467,
+        "image": "/images/products/ginger-flakes.png",
+        "keywords": [
+            "ginger flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 67,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "garlic-powder",
+        "name": "Garlic Powder",
+        "category": "Ground Spices",
+        "description": "Premium quality garlic powder. Intense flavor, free-flowing, and ideal for spice rubs and seasonings.",
+        "price": 512,
+        "image": "/images/products/garlic-powder.png",
+        "keywords": [
+            "garlic powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 88,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "garlic-flakes",
+        "name": "Garlic Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Sliced and dehydrated garlic flakes. Retains the natural pungency and health benefits of fresh garlic.",
+        "price": 483,
+        "image": "/images/products/garlic-flakes.png",
+        "keywords": [
+            "garlic flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 77,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "amchur-powder",
+        "name": "Amchur Powder",
+        "category": "Ground Spices",
+        "description": "Dry Mango Powder made from raw green mangoes. Key tangy ingredient for Indian street food and curries.",
+        "price": 516,
+        "image": "/images/products/amchur-powder.png",
+        "keywords": [
+            "amchur powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 77,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "pumpkin-powder",
+        "name": "Pumpkin Powder",
+        "category": "Dehydrated Vegetables",
+        "description": "Nutrient-rich dehydrated pumpkin powder. Natural sweetness and color for bakery and baby food.",
+        "price": 504,
+        "image": "/images/products/pumpkin-powder.png",
+        "keywords": [
+            "pumpkin powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 63,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "pumpkin-flakes",
+        "name": "Pumpkin Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Dehydrated pumpkin flakes. Versatile ingredient for soups, stews, and healthy snack bars.",
+        "price": 281,
+        "image": "/images/products/pumpkin-flakes.png",
+        "keywords": [
+            "pumpkin flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 82,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "cabbage-powder",
+        "name": "Cabbage Powder",
+        "category": "Dehydrated Vegetables",
+        "description": "Pure dehydrated cabbage powder. Rich in vitamins, ideal for instant soup mixes and nutraceuticals.",
+        "price": 261,
+        "image": "/images/products/cabbage-powder.png",
+        "keywords": [
+            "cabbage powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 76,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "cabbage-flakes",
+        "name": "Cabbage Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Dried cabbage flakes. Consistent quality and texture for industrial food production.",
+        "price": 270,
+        "image": "/images/products/cabbage-flakes.png",
+        "keywords": [
+            "cabbage flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 71,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "spinach-powder",
+        "name": "Spinach Powder",
+        "category": "Dehydrated Vegetables",
+        "description": "Bright green dehydrated spinach powder. Superfood ingredient for pasta, smoothies, and natural coloring.",
+        "price": 373,
+        "image": "/images/products/spinach-powder.png",
+        "keywords": [
+            "spinach powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 81,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "curry-powder",
+        "name": "Curry Powder",
+        "category": "Blended Spices",
+        "description": "Traditional Madras-style curry powder. Perfectly balanced blend for authentic global flavors.",
+        "price": 393,
+        "image": "/images/products/curry-powder.png",
+        "keywords": [
+            "curry powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 86,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "sprouted-chana",
+        "name": "Sprouted Chana",
+        "category": "Sprouted & Grains",
+        "description": "Nutrient-dense sprouted Bengal Gram. High protein, sun-dried for extended shelf life.",
+        "price": 276,
+        "image": "/images/products/sprouted-chana.png",
+        "keywords": [
+            "sprouted chana",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 79,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "bitter-gourd-powder",
+        "name": "Bitter Gourd Powder",
+        "category": "Wellness & Herbal Powders",
+        "description": "Pure Karela powder. Known for managing blood sugar levels and digestive health.",
+        "price": 354,
+        "image": "/images/products/bitter-gourd-powder.png",
+        "keywords": [
+            "bitter gourd powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 69,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "beetroot-powder",
+        "name": "Beetroot Powder",
+        "category": "Wellness & Herbal Powders",
+        "description": "Vibrant red beetroot powder. Natural nitrate source, perfect for sports nutrition and coloring.",
+        "price": 153,
+        "image": "/images/products/beetroot-powder.png",
+        "keywords": [
+            "beetroot powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 89,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "moringa-powder",
+        "name": "Moringa Powder",
+        "category": "Wellness & Herbal Powders",
+        "description": "Organic Moringa Oleifera leaf powder. World-renowned superfood with exceptional nutritional profile.",
+        "price": 174,
+        "image": "/images/products/moringa-powder.png",
+        "keywords": [
+            "moringa powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 64,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "sprouted-matki",
+        "name": "Sprouted Matki",
+        "category": "Sprouted & Grains",
+        "description": "Dehydrated sprouted Moth beans. highly digestible, rich in calcium and iron.",
+        "price": 184,
+        "image": "/images/products/sprouted-matki.png",
+        "keywords": [
+            "sprouted matki",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 87,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "carrot-powder",
+        "name": "Carrot Powder",
+        "category": "Dehydrated Vegetables",
+        "description": "Sweet and nutritious carrot powder. High in Beta-Carotene, ideal for beverages and snacks.",
+        "price": 142,
+        "image": "/images/products/carrot-powder.png",
+        "keywords": [
+            "carrot powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 75,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "carrot-flakes",
+        "name": "Carrot Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Crisp dehydrated carrot flakes. Retains natural color and nutrients for convenience foods.",
+        "price": 380,
+        "image": "/images/products/carrot-flakes.png",
+        "keywords": [
+            "carrot flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 88,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "mint-powder",
+        "name": "Mint Powder",
+        "category": "Ground Spices",
+        "description": "Fragrant dried Pudina powder. Refreshing flavor for beverages, chutneys, and dips.",
+        "price": 547,
+        "image": "/images/products/mint-powder.png",
+        "keywords": [
+            "mint powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 84,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "tamarind-powder",
+        "name": "Tamarind Powder",
+        "category": "Ground Spices",
+        "description": "Tangy tamarind fruit powder. Easy-to-use concentrate for sauces, candies, and soups.",
+        "price": 168,
+        "image": "/images/products/tamarind-powder.png",
+        "keywords": [
+            "tamarind powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 64,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "potato-powder",
+        "name": "Potato Powder",
+        "category": "Dehydrated Vegetables",
+        "description": "Versatile potato flour/powder. Excellent thickener for soups and binder for snacks.",
+        "price": 439,
+        "image": "/images/products/potato-powder.png",
+        "keywords": [
+            "potato powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 68,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "potato-flakes",
+        "name": "Potato Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Instant potato flakes. Ideal for mashed potatoes, snacks, and industrial baking.",
+        "price": 441,
+        "image": "/images/products/potato-flakes.png",
+        "keywords": [
+            "potato flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 67,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "banana-powder",
+        "name": "Banana Powder",
+        "category": "Specialty Powders",
+        "description": "Natural raw banana powder. High resistant starch, ideal for gluten-free baking and baby food.",
+        "price": 380,
+        "image": "/images/products/banana-powder.png",
+        "keywords": [
+            "banana powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 63,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "sprouted-ragi",
+        "name": "Sprouted Ragi",
+        "category": "Sprouted & Grains",
+        "description": "Sprouted and malted Finger Millet powder. Traditional high-calcium weaning food for babies.",
+        "price": 122,
+        "image": "/images/products/sprouted-ragi.png",
+        "keywords": [
+            "sprouted ragi",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 77,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "french-beans-flakes",
+        "name": "French Beans Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Dehydrated green bean flakes. Maintains color and crunch for ready-to-eat meals.",
+        "price": 589,
+        "image": "/images/products/french-beans-flakes.png",
+        "keywords": [
+            "french beans flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 67,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "kasuri-methi",
+        "name": "Kasuri Methi",
+        "category": "Whole Spices",
+        "description": "Premium sun-dried Fenugreek leaves. Intense aroma, essential finishing herb for Indian gravies.",
+        "price": 450,
+        "image": "/images/products/kasuri-methi.png",
+        "keywords": [
+            "kasuri methi",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 72,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "amla-powder",
+        "name": "Amla Powder",
+        "category": "Wellness & Herbal Powders",
+        "description": "Indian Gooseberry powder. High Vitamin C, used for immunity and hair care.",
+        "price": 465,
+        "image": "/images/products/amla-powder.png",
+        "keywords": [
+            "amla powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 68,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "shikai-powder",
+        "name": "Shikakai Powder",
+        "category": "Wellness & Herbal Powders",
+        "description": "Natural cleanser for hair. Traditional Ayurvedic powder for healthy scalp.",
+        "price": 352,
+        "image": "/images/products/shikai-powder.png",
+        "keywords": [
+            "shikakai powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 68,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "aloevera-powder",
+        "name": "Aloe Vera Powder",
+        "category": "Wellness & Herbal Powders",
+        "description": "Pure dehydrated Aloe Vera gel powder. Soothing properties for skin and digestion.",
+        "price": 343,
+        "image": "/images/products/aloevera-powder.png",
+        "keywords": [
+            "aloe vera powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 65,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "hina-powder",
+        "name": "Heena Powder",
+        "category": "Wellness & Herbal Powders",
+        "description": "Natural Lawsonia Inermis powder. Premium grade for hair coloring and art.",
+        "price": 478,
+        "image": "/images/products/hina-powder.png",
+        "keywords": [
+            "heena powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 75,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "tulsi-powder",
+        "name": "Tulsi Powder",
+        "category": "Wellness & Herbal Powders",
+        "description": "Holy Basil leaf powder. Revered for its adaptogenic and respiratory benefits.",
+        "price": 346,
+        "image": "/images/products/tulsi-powder.png",
+        "keywords": [
+            "tulsi powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 82,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "ashwagandha-powder",
+        "name": "Ashwagandha Powder",
+        "category": "Wellness & Herbal Powders",
+        "description": "Premium Withania Somnifera root powder. Renowned adaptogen for stress relief and vitality.",
+        "price": 239,
+        "image": "/images/products/ashwagandha-powder.png",
+        "keywords": [
+            "ashwagandha powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 83,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "dalchini-powder",
+        "name": "Dalchini Powder",
+        "category": "Ground Spices",
+        "description": "Fine Cinnamon powder. Sweet, woody flavor for bakery and beverages.",
+        "price": 428,
+        "image": "/images/products/dalchini-powder.png",
+        "keywords": [
+            "dalchini powder",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 82,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "beetroot-flakes",
+        "name": "Beetroot Flakes",
+        "category": "Dehydrated Vegetables",
+        "description": "Dehydrated beetroot slices. Retains deep purple color and earthy sweetness.",
+        "price": 571,
+        "image": "/images/products/beetroot-flakes.png",
+        "keywords": [
+            "beetroot flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 73,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    },
+    {
+        "id": "fried-onion-flakes",
+        "name": "Fried Onion Flakes",
+        "category": "Fried & Toasted",
+        "description": "Golden fried crispy onion flakes. Ready-to-use garnish for Biryani and burgers.",
+        "price": 522,
+        "image": "/images/products/fried-onion-flakes.png",
+        "keywords": [
+            "fried onion flakes",
+            "export quality",
+            "organic",
+            "natural"
+        ],
+        "popularity": 70,
+        "origin": "Maharashtra, India",
+        "moq": "5 MT",
+        "hsCode": "0712.90",
+        "exportStandards": "FSSAI, Export Grade, Non-GMO",
+        "packagingOptions": [
+            "25 kg PP Bag",
+            "Custom Branding"
+        ],
+        "variety": "Premium",
+        "moisture": "≤ 8%"
+    }
+]

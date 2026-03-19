@@ -3,7 +3,13 @@ import HeroSlider from '../components/HeroSlider';
 import AnimatedCounter from '../components/AnimatedCounter';
 import SEO from '../components/SEO';
 import useScrollAnimation from '../hooks/useScrollAnimation';
+import allProducts from '../data/products.json';
 import './Home.css';
+
+/* Show top 6 products by popularity on the homepage */
+const featuredProducts = [...allProducts]
+    .sort((a, b) => b.popularity - a.popularity)
+    .slice(0, 6);
 
 export default function Home() {
     useScrollAnimation();
@@ -12,7 +18,7 @@ export default function Home() {
         <>
             <SEO
                 title="Farmer Producer Company | Indian Agro Exports"
-                description="Panjara Agro Farmers Producer Company Limited — Premium Indian agricultural commodity exports. Direct farm sourcing of spices, food grains, pulses & oilseeds for global buyers."
+                description="Panjara Agro Farmers Producer Company Limited — Premium Indian agricultural commodity exports. Direct farm sourcing of spices, food grains, pulses &amp; oilseeds for global buyers."
                 path="/"
                 keywords="agro export India, farmer producer company, indian spices exporter, food grains supplier, pulses exporter, bulk agricultural supply, APEDA registered"
             />
@@ -51,30 +57,41 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* WHAT WE EXPORT — concise product categories */}
+            {/* FEATURED SPICES — real product showcase */}
             <section className="section">
                 <div className="container">
                     <div className="section-heading fade-in">
-                        <span className="section-heading__label">Export Catalog</span>
-                        <h2 className="section-heading__title">What We Export</h2>
+                        <span className="section-heading__label">Our Products</span>
+                        <h2 className="section-heading__title">Featured Spices</h2>
                         <div className="section-heading__bar" />
                     </div>
-                    <div className="home-categories grid-3 fade-in">
-                        {[
-                            { icon: '🌾', name: 'Food Grains', items: 'Rice, Wheat, Maize, Millets' },
-                            { icon: '🫘', name: 'Pulses', items: 'Tur Dal, Chana, Moong, Urad' },
-                            { icon: '🌶️', name: 'Spices', items: 'Turmeric, Chilli, Coriander, Cumin' },
-                            { icon: '🥜', name: 'Oilseeds', items: 'Soybean, Groundnut, Mustard' },
-                            { icon: '🧅', name: 'Fresh Produce', items: 'Onion, Fruits, Vegetables' },
-                            { icon: '📋', name: 'Custom Sourcing', items: 'Tell us what you need' },
-                        ].map((cat, i) => (
-                            <Link to="/products" className="home-cat-card" key={i}>
-                                <span className="home-cat-card__icon">{cat.icon}</span>
-                                <h3 className="home-cat-card__name">{cat.name}</h3>
-                                <p className="home-cat-card__items">{cat.items}</p>
-                                <span className="home-cat-card__arrow">→</span>
+                    <div className="home-products grid-3 fade-in">
+                        {featuredProducts.map(product => (
+                            <Link to="/products" className="home-product-card" key={product.id}>
+                                <div className="home-product-card__img-wrap">
+                                    <img
+                                        src={product.image}
+                                        alt={product.name}
+                                        className="home-product-card__img"
+                                        loading="lazy"
+                                    />
+                                    <span className="home-product-card__badge">{product.category}</span>
+                                </div>
+                                <div className="home-product-card__body">
+                                    <h3 className="home-product-card__name">{product.name}</h3>
+                                    <p className="home-product-card__desc">{product.description}</p>
+                                    <div className="home-product-card__footer">
+                                        <span className="home-product-card__price">
+                                            ₹{product.price}<span className="home-product-card__unit">/kg</span>
+                                        </span>
+                                        <span className="home-product-card__arrow">View Details →</span>
+                                    </div>
+                                </div>
                             </Link>
                         ))}
+                    </div>
+                    <div className="home-products__cta fade-in">
+                        <Link to="/products" className="btn btn--outline">Explore All Spices →</Link>
                     </div>
                 </div>
             </section>
