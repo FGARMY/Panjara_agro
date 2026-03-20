@@ -1,6 +1,8 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+const compression = require('compression');
+const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 
 const inquiryRoutes = require('./routes/inquiryRoutes');
@@ -10,7 +12,13 @@ const productRoutes = require('./routes/productRoutes');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Middleware
+// Security headers
+app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
+
+// Gzip/Brotli compression — reduces response sizes ~70%
+app.use(compression());
+
+// CORS
 app.use(cors({
     origin: ['http://localhost:5173', 'http://127.0.0.1:5173', 'https://panjara-agro.vercel.app']
 }));

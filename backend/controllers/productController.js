@@ -29,6 +29,7 @@ exports.getProducts = async (req, res) => {
             throw error;
         }
 
+        res.set('Cache-Control', 'public, max-age=300, s-maxage=600');
         res.status(200).json({ success: true, data });
     } catch (error) {
         console.error('Error fetching products:', error);

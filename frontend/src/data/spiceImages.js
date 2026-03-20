@@ -1,9 +1,8 @@
 /* Centralized spice image paths and hero slide data */
-import farmerHoldsRice from '../assets/farmer-holds-rice-hand.jpg';
-import farmland from '../assets/farmland.jpg';
-import heroBanner from '../assets/hero-banner.png';
-import farmerNetwork from '../assets/farmer-network.png';
-import exportQuality from '../assets/export-quality.png';
+import farmerHoldsRice from '../assets/cabage.jpeg';
+import heroBanner from '../assets/corn.jpeg';
+import farmerNetwork from '../assets/grapes.jpeg';
+import exportQuality from '../assets/land-field.jpeg';
 
 export const heroSlides = [
     {
@@ -12,7 +11,7 @@ export const heroSlides = [
         subtitle: 'Sourced directly from India\'s finest farms to your kitchen',
     },
     {
-        image: farmland,
+        image: farmerHoldsRice,
         title: 'Farm to Kitchen Quality',
         subtitle: 'Pure, natural spices with no additives or preservatives',
     },

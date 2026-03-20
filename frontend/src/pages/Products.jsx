@@ -192,7 +192,7 @@ export default function Products() {
                     </div>
 
                     {/* Product Grid */}
-                    <div className="products-grid fade-in">
+                    <div className="products-grid">
                         {filtered.length > 0 ? (
                             filtered.map(product => (
                                 <div className="product-card" key={product.id} onClick={() => setSelectedProduct(product)}>
@@ -202,6 +202,10 @@ export default function Products() {
                                             alt={product.name}
                                             className="product-card__img"
                                             loading="lazy"
+                                            onError={e => {
+                                                e.target.onerror = null;
+                                                e.target.src = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" fill="%23f5f5f5"><rect width="400" height="300"/><text x="200" y="150" fill="%23bbb" font-family="sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Image Coming Soon</text></svg>');
+                                            }}
                                         />
                                         <div className="product-card__badge">{product.category}</div>
                                     </div>

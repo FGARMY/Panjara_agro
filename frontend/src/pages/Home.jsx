@@ -28,7 +28,7 @@ export default function Home() {
             {/* TRUST METRICS — immediate credibility */}
             <section className="section home-trust">
                 <div className="container">
-                    <div className="home-trust__grid fade-in">
+                    <div className="home-trust__grid">
                         <div className="home-trust__item">
                             <div className="home-trust__number">
                                 <AnimatedCounter end={5000} suffix="+" />
@@ -60,12 +60,12 @@ export default function Home() {
             {/* FEATURED SPICES — real product showcase */}
             <section className="section">
                 <div className="container">
-                    <div className="section-heading fade-in">
+                    <div className="section-heading">
                         <span className="section-heading__label">Our Products</span>
                         <h2 className="section-heading__title">Featured Spices</h2>
                         <div className="section-heading__bar" />
                     </div>
-                    <div className="home-products grid-3 fade-in">
+                    <div className="home-products grid-3">
                         {featuredProducts.map(product => (
                             <Link to="/products" className="home-product-card" key={product.id}>
                                 <div className="home-product-card__img-wrap">
@@ -90,7 +90,7 @@ export default function Home() {
                             </Link>
                         ))}
                     </div>
-                    <div className="home-products__cta fade-in">
+                    <div className="home-products__cta">
                         <Link to="/products" className="btn btn--outline">Explore All Spices →</Link>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ export default function Home() {
 
             {/* CTA — single clear action */}
             <section className="section home-cta">
-                <div className="container home-cta__inner fade-in">
+                <div className="container home-cta__inner">
                     <h2 className="home-cta__title">
                         Ready to Source Quality Indian Agricultural Commodities?
                     </h2>
