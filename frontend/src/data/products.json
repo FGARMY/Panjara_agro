@@ -5,7 +5,7 @@
         "category": "Ground Spices",
         "description": "Premium Sangli & Erode turmeric powder with high curcumin content (3-5%). Deep golden color, earthy aroma — ideal for cooking, health supplements & food processing.",
         "price": 280,
-        "image": "/images/products/turmeric-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Turmeric_inflorescence.jpg/960px-Turmeric_inflorescence.jpg",
         "keywords": [
             "turmeric",
             "haldi",
@@ -33,7 +33,7 @@
         "category": "Ground Spices",
         "description": "Teja (S17) and Byadgi red chilli powder — vibrant color, balanced heat. Perfect for spice blends, sauces, and food manufacturing.",
         "price": 320,
-        "image": "/images/products/red-chilli-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/BolivianChilePowder2.JPG",
         "keywords": [
             "chilli",
             "red pepper",
@@ -61,7 +61,7 @@
         "category": "Ground Spices",
         "description": "Freshly ground Eagle & Scooter variety coriander — aromatic, warm flavor. Essential base spice for curry powders and masala blends.",
         "price": 190,
-        "image": "/images/products/coriander-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg",
         "keywords": [
             "coriander",
             "dhania",
@@ -87,7 +87,7 @@
         "category": "Whole Spices",
         "description": "Singapore & Europe quality cumin seeds (Jeera) with high volatile oil content. 99% purity, machine-cleaned — premium grade for export.",
         "price": 450,
-        "image": "/images/products/cumin-seeds.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-198.jpg",
         "keywords": [
             "cumin",
             "jeera",
@@ -114,7 +114,7 @@
         "category": "Whole Spices",
         "description": "Malabar and Tellicherry grade black pepper — bold berries, strong piperine content. The 'King of Spices' sourced from Kerala's plantations.",
         "price": 680,
-        "image": "/images/products/black-pepper.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Piper_nigrum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-107.jpg",
         "keywords": [
             "black pepper",
             "kali mirch",
@@ -141,7 +141,7 @@
         "category": "Whole Spices",
         "description": "Hand-picked whole cloves with intense aroma and high eugenol content. Used in culinary, pharmaceutical, and cosmetic applications worldwide.",
         "price": 1200,
-        "image": "/images/products/cloves.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Syzygium_aromaticum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-030.jpg",
         "keywords": [
             "cloves",
             "laung",
@@ -168,7 +168,7 @@
         "category": "Whole Spices",
         "description": "The 'Queen of Spices' — aromatic green cardamom pods from Kerala & Karnataka hills. Bold 7mm+ pods with intense fragrance for premium markets.",
         "price": 2800,
-        "image": "/images/products/green-cardamom.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/02017_0119_Kardamom%2C_Winter_in_den_Beskiden.jpg/960px-02017_0119_Kardamom%2C_Winter_in_den_Beskiden.jpg",
         "keywords": [
             "cardamom",
             "elaichi",
@@ -195,7 +195,7 @@
         "category": "Whole Spices",
         "description": "Premium cassia cinnamon (dalchini) — tightly rolled quills with warm, sweet aroma. Available in C4, C5 grades for food and beverage industries.",
         "price": 520,
-        "image": "/images/products/cinnamon-sticks.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Cinnamomum_verum_spices.jpg/960px-Cinnamomum_verum_spices.jpg",
         "keywords": [
             "cinnamon",
             "dalchini",
@@ -222,7 +222,7 @@
         "category": "Whole Spices",
         "description": "Yellow and brown mustard seeds for oil extraction, condiment manufacturing, and food-grade tempering. Bold seeds, 99%+ purity.",
         "price": 85,
-        "image": "/images/products/mustard-seeds.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mustard.png/960px-Mustard.png",
         "keywords": [
             "mustard",
             "sarson",
@@ -249,7 +249,7 @@
         "category": "Blended Spices",
         "description": "Signature warm spice blend of cardamom, cinnamon, cloves, black pepper, and cumin — the essential finishing spice for Indian cuisine.",
         "price": 480,
-        "image": "/images/products/garam-masala.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Garammasalaphoto.jpg/960px-Garammasalaphoto.jpg",
         "keywords": [
             "garam masala",
             "spice blend",
@@ -277,7 +277,7 @@
         "category": "Whole Spices",
         "description": "Lucknow and Singapore quality fennel seeds (saunf) — sweet, aromatic, and bright green. Used as mouth freshener, in cooking, and herbal teas.",
         "price": 220,
-        "image": "/images/products/fennel-seeds.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Foeniculum_July_2011-1a.jpg/960px-Foeniculum_July_2011-1a.jpg",
         "keywords": [
             "fennel",
             "saunf",
@@ -304,7 +304,7 @@
         "category": "Blended Spices",
         "description": "Tangy, pungent spice blend featuring black salt, amchur, cumin & asafoetida — the quintessential street food seasoning of India.",
         "price": 350,
-        "image": "/images/products/chaat-masala.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Chaatmasala.jpg",
         "keywords": [
             "chaat masala",
             "tangy spice",
@@ -332,7 +332,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Premium dehydrated white onion powder. Sharp, sweet flavor, ideal for soups, sauces, and seasoning blends.",
         "price": 346,
-        "image": "/images/products/white-onion-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Onion_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg/960px-Onion_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg",
         "keywords": [
             "white onion powder",
             "export quality",
@@ -357,7 +357,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Crispy dehydrated white onion flakes. Maintained flavor and texture, perfect for bulk food processing and industrial kitchens.",
         "price": 456,
-        "image": "/images/products/white-onion-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/960px-Mixed_onions.jpg",
         "keywords": [
             "white onion flakes",
             "export quality",
@@ -382,7 +382,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Premium dehydrated red onion flakes. Strong aroma and vibrant flavor for culinary applications.",
         "price": 189,
-        "image": "/images/products/red-onion-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Red_Onion_on_White.JPG/960px-Red_Onion_on_White.JPG",
         "keywords": [
             "red onion flakes",
             "export quality",
@@ -407,7 +407,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Fine red onion powder, highly concentrated flavor. Essential for spice mixes and institutional catering.",
         "price": 541,
-        "image": "/images/products/red-onion-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Onion_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg/960px-Onion_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg",
         "keywords": [
             "red onion powder",
             "export quality",
@@ -432,7 +432,7 @@
         "category": "Ground Spices",
         "description": "Sun-dried and finely ground ginger powder. High gingerol content, pungent and aromatic.",
         "price": 546,
-        "image": "/images/products/ginger-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Koeh-146-no_text.jpg/960px-Koeh-146-no_text.jpg",
         "keywords": [
             "ginger powder",
             "export quality",
@@ -457,7 +457,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Dehydrated ginger flakes. Ideal for tea blends, confectionery, and medicinal extractions.",
         "price": 467,
-        "image": "/images/products/ginger-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Koeh-146-no_text.jpg/960px-Koeh-146-no_text.jpg",
         "keywords": [
             "ginger flakes",
             "export quality",
@@ -482,7 +482,7 @@
         "category": "Ground Spices",
         "description": "Premium quality garlic powder. Intense flavor, free-flowing, and ideal for spice rubs and seasonings.",
         "price": 512,
-        "image": "/images/products/garlic-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ground-Garlic_31534-480x360_%284904476773%29.jpg",
         "keywords": [
             "garlic powder",
             "export quality",
@@ -507,7 +507,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Sliced and dehydrated garlic flakes. Retains the natural pungency and health benefits of fresh garlic.",
         "price": 483,
-        "image": "/images/products/garlic-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Allium_sativum_Woodwill_1793.jpg",
         "keywords": [
             "garlic flakes",
             "export quality",
@@ -532,7 +532,7 @@
         "category": "Ground Spices",
         "description": "Dry Mango Powder made from raw green mangoes. Key tangy ingredient for Indian street food and curries.",
         "price": 516,
-        "image": "/images/products/amchur-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Dried_Mango_Slices.JPG/960px-Dried_Mango_Slices.JPG",
         "keywords": [
             "amchur powder",
             "export quality",
@@ -557,7 +557,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Nutrient-rich dehydrated pumpkin powder. Natural sweetness and color for bakery and baby food.",
         "price": 504,
-        "image": "/images/products/pumpkin-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FrenchMarketPumpkinsB.jpg/960px-FrenchMarketPumpkinsB.jpg",
         "keywords": [
             "pumpkin powder",
             "export quality",
@@ -582,7 +582,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Dehydrated pumpkin flakes. Versatile ingredient for soups, stews, and healthy snack bars.",
         "price": 281,
-        "image": "/images/products/pumpkin-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FrenchMarketPumpkinsB.jpg/960px-FrenchMarketPumpkinsB.jpg",
         "keywords": [
             "pumpkin flakes",
             "export quality",
@@ -607,7 +607,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Pure dehydrated cabbage powder. Rich in vitamins, ideal for instant soup mixes and nutraceuticals.",
         "price": 261,
-        "image": "/images/products/cabbage-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cabbage_and_cross_section_on_white.jpg/960px-Cabbage_and_cross_section_on_white.jpg",
         "keywords": [
             "cabbage powder",
             "export quality",
@@ -632,7 +632,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Dried cabbage flakes. Consistent quality and texture for industrial food production.",
         "price": 270,
-        "image": "/images/products/cabbage-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cabbage_and_cross_section_on_white.jpg/960px-Cabbage_and_cross_section_on_white.jpg",
         "keywords": [
             "cabbage flakes",
             "export quality",
@@ -657,7 +657,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Bright green dehydrated spinach powder. Superfood ingredient for pasta, smoothies, and natural coloring.",
         "price": 373,
-        "image": "/images/products/spinach-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg",
         "keywords": [
             "spinach powder",
             "export quality",
@@ -682,7 +682,7 @@
         "category": "Blended Spices",
         "description": "Traditional Madras-style curry powder. Perfectly balanced blend for authentic global flavors.",
         "price": 393,
-        "image": "/images/products/curry-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Curry_powder_in_the_spice-bazaar_in_Istanbul.jpg/960px-Curry_powder_in_the_spice-bazaar_in_Istanbul.jpg",
         "keywords": [
             "curry powder",
             "export quality",
@@ -707,7 +707,7 @@
         "category": "Sprouted & Grains",
         "description": "Nutrient-dense sprouted Bengal Gram. High protein, sun-dried for extended shelf life.",
         "price": 276,
-        "image": "/images/products/sprouted-chana.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Chickpea_BNC.jpg/960px-Chickpea_BNC.jpg",
         "keywords": [
             "sprouted chana",
             "export quality",
@@ -732,7 +732,7 @@
         "category": "Wellness & Herbal Powders",
         "description": "Pure Karela powder. Known for managing blood sugar levels and digestive health.",
         "price": 354,
-        "image": "/images/products/bitter-gourd-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Momordica_charantia_Blanco2.357.png/960px-Momordica_charantia_Blanco2.357.png",
         "keywords": [
             "bitter gourd powder",
             "export quality",
@@ -757,7 +757,7 @@
         "category": "Wellness & Herbal Powders",
         "description": "Vibrant red beetroot powder. Natural nitrate source, perfect for sports nutrition and coloring.",
         "price": 153,
-        "image": "/images/products/beetroot-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Detroitdarkredbeets.png/960px-Detroitdarkredbeets.png",
         "keywords": [
             "beetroot powder",
             "export quality",
@@ -782,7 +782,7 @@
         "category": "Wellness & Herbal Powders",
         "description": "Organic Moringa Oleifera leaf powder. World-renowned superfood with exceptional nutritional profile.",
         "price": 174,
-        "image": "/images/products/moringa-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/DrumstickFlower.jpg/960px-DrumstickFlower.jpg",
         "keywords": [
             "moringa powder",
             "export quality",
@@ -807,7 +807,7 @@
         "category": "Sprouted & Grains",
         "description": "Dehydrated sprouted Moth beans. highly digestible, rich in calcium and iron.",
         "price": 184,
-        "image": "/images/products/sprouted-matki.png",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
         "keywords": [
             "sprouted matki",
             "export quality",
@@ -832,7 +832,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Sweet and nutritious carrot powder. High in Beta-Carotene, ideal for beverages and snacks.",
         "price": 142,
-        "image": "/images/products/carrot-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vegetable-Carrot-Bundle-wStalks.jpg/960px-Vegetable-Carrot-Bundle-wStalks.jpg",
         "keywords": [
             "carrot powder",
             "export quality",
@@ -857,7 +857,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Crisp dehydrated carrot flakes. Retains natural color and nutrients for convenience foods.",
         "price": 380,
-        "image": "/images/products/carrot-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vegetable-Carrot-Bundle-wStalks.jpg/960px-Vegetable-Carrot-Bundle-wStalks.jpg",
         "keywords": [
             "carrot flakes",
             "export quality",
@@ -882,7 +882,7 @@
         "category": "Ground Spices",
         "description": "Fragrant dried Pudina powder. Refreshing flavor for beverages, chutneys, and dips.",
         "price": 547,
-        "image": "/images/products/mint-powder.png",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
         "keywords": [
             "mint powder",
             "export quality",
@@ -907,7 +907,7 @@
         "category": "Ground Spices",
         "description": "Tangy tamarind fruit powder. Easy-to-use concentrate for sauces, candies, and soups.",
         "price": 168,
-        "image": "/images/products/tamarind-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tamarindus_indica_pods.JPG",
         "keywords": [
             "tamarind powder",
             "export quality",
@@ -932,7 +932,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Versatile potato flour/powder. Excellent thickener for soups and binder for snacks.",
         "price": 439,
-        "image": "/images/products/potato-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/960px-Patates.jpg",
         "keywords": [
             "potato powder",
             "export quality",
@@ -957,7 +957,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Instant potato flakes. Ideal for mashed potatoes, snacks, and industrial baking.",
         "price": 441,
-        "image": "/images/products/potato-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/960px-Patates.jpg",
         "keywords": [
             "potato flakes",
             "export quality",
@@ -982,7 +982,7 @@
         "category": "Specialty Powders",
         "description": "Natural raw banana powder. High resistant starch, ideal for gluten-free baking and baby food.",
         "price": 380,
-        "image": "/images/products/banana-powder.png",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
         "keywords": [
             "banana powder",
             "export quality",
@@ -1007,7 +1007,7 @@
         "category": "Sprouted & Grains",
         "description": "Sprouted and malted Finger Millet powder. Traditional high-calcium weaning food for babies.",
         "price": 122,
-        "image": "/images/products/sprouted-ragi.png",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
         "keywords": [
             "sprouted ragi",
             "export quality",
@@ -1032,7 +1032,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Dehydrated green bean flakes. Maintains color and crunch for ready-to-eat meals.",
         "price": 589,
-        "image": "/images/products/french-beans-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Heaps_of_beans.jpg/960px-Heaps_of_beans.jpg",
         "keywords": [
             "french beans flakes",
             "export quality",
@@ -1057,7 +1057,7 @@
         "category": "Whole Spices",
         "description": "Premium sun-dried Fenugreek leaves. Intense aroma, essential finishing herb for Indian gravies.",
         "price": 450,
-        "image": "/images/products/kasuri-methi.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Illustration_Trigonella_foenum-graecum0_clean.jpg/960px-Illustration_Trigonella_foenum-graecum0_clean.jpg",
         "keywords": [
             "kasuri methi",
             "export quality",
@@ -1082,7 +1082,7 @@
         "category": "Wellness & Herbal Powders",
         "description": "Indian Gooseberry powder. High Vitamin C, used for immunity and hair care.",
         "price": 465,
-        "image": "/images/products/amla-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Phyllanthus_officinalis.jpg",
         "keywords": [
             "amla powder",
             "export quality",
@@ -1107,7 +1107,7 @@
         "category": "Wellness & Herbal Powders",
         "description": "Natural cleanser for hair. Traditional Ayurvedic powder for healthy scalp.",
         "price": 352,
-        "image": "/images/products/shikai-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Acacia_concinna_Blanco2.374-cropped.png/960px-Acacia_concinna_Blanco2.374-cropped.png",
         "keywords": [
             "shikakai powder",
             "export quality",
@@ -1132,7 +1132,7 @@
         "category": "Wellness & Herbal Powders",
         "description": "Pure dehydrated Aloe Vera gel powder. Soothing properties for skin and digestion.",
         "price": 343,
-        "image": "/images/products/aloevera-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/960px-Aloe_vera_flower_inset.png",
         "keywords": [
             "aloe vera powder",
             "export quality",
@@ -1157,7 +1157,7 @@
         "category": "Wellness & Herbal Powders",
         "description": "Natural Lawsonia Inermis powder. Premium grade for hair coloring and art.",
         "price": 478,
-        "image": "/images/products/hina-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Elderly_Man_with_Hennaed_Beard_-_Old_City_-_Dhaka_-_Bangladesh_%2812850630365%29.jpg/960px-Elderly_Man_with_Hennaed_Beard_-_Old_City_-_Dhaka_-_Bangladesh_%2812850630365%29.jpg",
         "keywords": [
             "heena powder",
             "export quality",
@@ -1182,7 +1182,7 @@
         "category": "Wellness & Herbal Powders",
         "description": "Holy Basil leaf powder. Revered for its adaptogenic and respiratory benefits.",
         "price": 346,
-        "image": "/images/products/tulsi-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Tulsi_or_Tulasi_Holy_basil.jpg/960px-Tulsi_or_Tulasi_Holy_basil.jpg",
         "keywords": [
             "tulsi powder",
             "export quality",
@@ -1207,7 +1207,7 @@
         "category": "Wellness & Herbal Powders",
         "description": "Premium Withania Somnifera root powder. Renowned adaptogen for stress relief and vitality.",
         "price": 239,
-        "image": "/images/products/ashwagandha-powder.png",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
         "keywords": [
             "ashwagandha powder",
             "export quality",
@@ -1232,7 +1232,7 @@
         "category": "Ground Spices",
         "description": "Fine Cinnamon powder. Sweet, woody flavor for bakery and beverages.",
         "price": 428,
-        "image": "/images/products/dalchini-powder.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Cinnamomum_verum_spices.jpg/960px-Cinnamomum_verum_spices.jpg",
         "keywords": [
             "dalchini powder",
             "export quality",
@@ -1257,7 +1257,7 @@
         "category": "Dehydrated Vegetables",
         "description": "Dehydrated beetroot slices. Retains deep purple color and earthy sweetness.",
         "price": 571,
-        "image": "/images/products/beetroot-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Detroitdarkredbeets.png/960px-Detroitdarkredbeets.png",
         "keywords": [
             "beetroot flakes",
             "export quality",
@@ -1282,7 +1282,7 @@
         "category": "Fried & Toasted",
         "description": "Golden fried crispy onion flakes. Ready-to-use garnish for Biryani and burgers.",
         "price": 522,
-        "image": "/images/products/fried-onion-flakes.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Fried_onion%28iran%292.jpg/960px-Fried_onion%28iran%292.jpg",
         "keywords": [
             "fried onion flakes",
             "export quality",
