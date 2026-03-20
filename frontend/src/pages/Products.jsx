@@ -9,8 +9,6 @@ import './Products.css';
 const CATEGORIES = ['Whole Spices', 'Ground Spices', 'Blended Spices'];
 const SORT_OPTIONS = [
     { value: 'popularity', label: 'Popularity' },
-    { value: 'price-asc', label: 'Price: Low → High' },
-    { value: 'price-desc', label: 'Price: High → Low' },
     { value: 'alpha', label: 'Alphabetical' },
 ];
 
@@ -19,8 +17,6 @@ export default function Products() {
 
     const [search, setSearch] = useState('');
     const [selectedCategories, setSelectedCategories] = useState([]);
-    const [minPrice, setMinPrice] = useState('');
-    const [maxPrice, setMaxPrice] = useState('');
     const [sortBy, setSortBy] = useState('popularity');
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [filtersOpen, setFiltersOpen] = useState(false);
@@ -34,8 +30,6 @@ export default function Products() {
     const clearFilters = () => {
         setSearch('');
         setSelectedCategories([]);
-        setMinPrice('');
-        setMaxPrice('');
         setSortBy('popularity');
     };
 
@@ -58,24 +52,16 @@ export default function Products() {
             result = result.filter(p => selectedCategories.includes(p.category));
         }
 
-        // Price filter
-        const min = parseFloat(minPrice);
-        const max = parseFloat(maxPrice);
-        if (!isNaN(min)) result = result.filter(p => p.price >= min);
-        if (!isNaN(max)) result = result.filter(p => p.price <= max);
-
         // Sort
         switch (sortBy) {
-            case 'price-asc': result.sort((a, b) => a.price - b.price); break;
-            case 'price-desc': result.sort((a, b) => b.price - a.price); break;
             case 'alpha': result.sort((a, b) => a.name.localeCompare(b.name)); break;
             case 'popularity': default: result.sort((a, b) => b.popularity - a.popularity); break;
         }
 
         return result;
-    }, [search, selectedCategories, minPrice, maxPrice, sortBy]);
+    }, [search, selectedCategories, sortBy]);
 
-    const hasActiveFilters = selectedCategories.length > 0 || minPrice || maxPrice || sortBy !== 'popularity';
+    const hasActiveFilters = selectedCategories.length > 0 || sortBy !== 'popularity';
 
     return (
         <>
@@ -145,28 +131,6 @@ export default function Products() {
                             </div>
                         </div>
                         <div className="products-filters__section">
-                            <h4 className="products-filters__label">Price Range (₹/kg)</h4>
-                            <div className="products-filters__price">
-                                <input
-                                    type="number"
-                                    className="products-filters__price-input"
-                                    placeholder="Min"
-                                    value={minPrice}
-                                    onChange={e => setMinPrice(e.target.value)}
-                                    min="0"
-                                />
-                                <span className="products-filters__price-sep">—</span>
-                                <input
-                                    type="number"
-                                    className="products-filters__price-input"
-                                    placeholder="Max"
-                                    value={maxPrice}
-                                    onChange={e => setMaxPrice(e.target.value)}
-                                    min="0"
-                                />
-                            </div>
-                        </div>
-                        <div className="products-filters__section">
                             <h4 className="products-filters__label">Sort By</h4>
                             <select
                                 className="products-filters__select"
@@ -213,11 +177,8 @@ export default function Products() {
                                         <h3 className="product-card__name">{product.name}</h3>
                                         <p className="product-card__desc">{product.description}</p>
                                         <div className="product-card__footer">
-                                            <div className="product-card__price">
-                                                ₹{product.price}<span className="product-card__price-unit">/kg</span>
-                                            </div>
-                                            <button className="btn btn--outline product-card__btn">
-                                                Inquire Now →
+                                            <button className="btn btn--outline product-card__btn" style={{ width: '100%', justifyContent: 'center' }}>
+                                                Request Quote →
                                             </button>
                                         </div>
                                     </div>
@@ -254,9 +215,8 @@ export default function Products() {
                         <h2 className="product-modal__name">{selectedProduct.name}</h2>
                         <p className="product-modal__desc">{selectedProduct.description}</p>
 
-                        <div className="product-modal__price-row">
-                            <span className="product-modal__price">₹{selectedProduct.price}/kg</span>
-                            <span className="product-modal__moq">MOQ: {selectedProduct.moq}</span>
+                        <div className="product-modal__price-row" style={{ justifyContent: 'flex-start' }}>
+                            <span className="product-modal__moq">Minimum Order Quantity: {selectedProduct.moq}</span>
                         </div>
 
                         <div className="spec-grid">

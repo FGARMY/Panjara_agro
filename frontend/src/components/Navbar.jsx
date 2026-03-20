@@ -131,6 +131,10 @@ export default function Navbar() {
                         </li>
                     ))}
                 </ul>
+
+                <a href="#bulk-quotation" className="navbar__cta btn btn--gold" id="nav-get-quote">
+                    Get Quote
+                </a>
             </div>
         </nav>
     );

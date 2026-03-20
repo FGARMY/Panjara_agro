@@ -15,7 +15,7 @@ export default function useScrollAnimation() {
       },
       { 
         threshold: 0,
-        rootMargin: '100px' // Trigger much earlier to avoid perceived lag
+        rootMargin: '300px' // Trigger much earlier to avoid perceived lag
       }
     );
 

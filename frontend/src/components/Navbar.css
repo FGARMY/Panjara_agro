@@ -95,6 +95,17 @@
     background: var(--green-800);
 }
 
+/* --- NAVBAR CTA BUTTON --- */
+.navbar__cta {
+    padding: 10px 24px;
+    font-size: 0.85rem;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+    text-decoration: none;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+
 /* --- LAYOUT --- */
 .navbar__inner {
     display: flex;

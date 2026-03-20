@@ -7,27 +7,22 @@ import exportQuality from '../assets/land-field.jpeg';
 export const heroSlides = [
     {
         image: heroBanner,
-        title: 'Premium Organic Spices',
-        subtitle: 'Sourced directly from India\'s finest farms to your kitchen',
+        title: 'Premium Indian Agro Products — Exported Globally',
+        subtitle: 'Trusted by international buyers across 15+ countries for quality, consistency & bulk supply.',
     },
     {
         image: farmerHoldsRice,
-        title: 'Farm to Kitchen Quality',
-        subtitle: 'Pure, natural spices with no additives or preservatives',
-    },
-    {
-        image: farmerHoldsRice,
-        title: 'Authentic Indian Flavors',
-        subtitle: 'Traditional spices that bring heritage to every meal',
+        title: 'Direct Farm Sourcing, Export-Grade Quality',
+        subtitle: 'From 5,000+ farmer partners to your warehouse — FSSAI certified, lab-tested, globally compliant.',
     },
     {
         image: exportQuality,
-        title: 'Export-Grade Purity',
-        subtitle: 'FSSAI certified, lab-tested & globally trusted quality',
+        title: 'Bulk Supply You Can Rely On',
+        subtitle: '10,000+ MT monthly capacity. Spices, grains, pulses & oilseeds — packed and shipped worldwide.',
     },
     {
         image: farmerNetwork,
-        title: 'Bulk & Retail Supply',
-        subtitle: 'From 1 kg packs to 25 MT containers — we deliver at scale',
+        title: 'Your Trusted Indian Agro Export Partner',
+        subtitle: 'APEDA registered. IEC certified. Dedicated trade team responding within 24 hours.',
     },
 ];

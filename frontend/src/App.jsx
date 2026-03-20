@@ -2,6 +2,8 @@ import { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import BulkQuotation from './components/BulkQuotation';
+import WhatsAppButton from './components/WhatsAppButton';
 
 /* ── Eagerly loaded (above-the-fold, always needed) ─── */
 import Home from './pages/Home';
@@ -65,7 +67,9 @@ export default function App() {
           </Routes>
         </Suspense>
       </main>
+      <BulkQuotation />
       <Footer />
+      <WhatsAppButton />
     </BrowserRouter>
   );
 }
